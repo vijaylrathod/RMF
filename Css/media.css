@@ -1,0 +1,4975 @@
+/*--.fundPerf, .subMenuMain {display:block!important;}--*/
+@media only screen and (max-width : 1024px) {
+    ul.fixWrapper {
+        width: 90px;
+        left: -90px;
+    }
+
+        ul.fixWrapper li a {
+            width: 60px;
+            font-size: 1.2em;
+            padding: 18px 15px;
+        }
+
+        ul.fixWrapper li:last-child a {
+            padding: 12px 15px;
+        }
+
+    .oldsitelink {
+        padding-bottom: 7px;
+    }
+    .w100 {
+        width:100%!important;
+    }
+}
+
+@media only screen and (max-width : 1023px) {
+    #wrapper {
+        width: 100%;
+        overflow-x: auto;
+        float: left;
+    }
+
+    #scroller {
+        width: 730px;
+        float: left;
+        padding-bottom: 25px;
+    }
+
+    .oldsitelink {
+        padding-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .oldsitelink {
+        padding-bottom: 7px;
+    }
+
+    
+
+    #s4-workspace {
+        overflow-x: hidden;
+    }
+    /*Added by Nitin on 11/07/2014 - In Sharepoint scroll is from element #s4-workspace not from body */
+    nav.mobNav ul.nav li a, nav.mobNav ul.nav li ul li a, article.midWrap, .quickBox, #retailWrap, #retailWrap ul.retailWrap li a, .container, .accordDetail, ul.fixWrapper li a, nav.mobNav ul.nav li.lastLi.activeSearch, .contentContainer {
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        box-sizing: border-box; /* Opera/IE 8+ */
+    }
+
+    .compareWrap #scroll {
+        overflow: auto;
+    }
+    /*DG  Latest 10*/
+    p.totalFund {
+        position: relative;
+        right: 0;
+        width: auto;
+        top: 0;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    /*DG  Latest 10*/
+    .investTabWrap ul.tab5 li {
+        width: 17%;
+    }
+
+        .investTabWrap ul.tab5 li.step4 {
+            width: 19%;
+        }
+
+        .investTabWrap ul.tab5 li.step2 {
+            width: 20%;
+        }
+
+        .investTabWrap ul.tab5 li.step5, .investTabWrap ul.tab5 li.step3 {
+            width: 21.80%;
+        }
+
+    article.midWrap, .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    /*/nav.mobNav article.midWrap{padding:0 0 15px 0; background:#d8dee5; float:left; margin:75px 0 0 0; }*/
+    .bannerWrap .tabWrap, .bannerWrap article, .header, .footer, .mutualWrap .topHead, .accordWrap {
+        width: 100%;
+    }
+
+        .planInvset, .accordWrap .accordHead {
+            margin: 0 0 0 12px;
+        }
+
+            .accordWrap .accordHead:first-child {
+                margin: 0;
+            }
+
+    /*.headWrap .rhsHead ul{display:none}*/
+    nav.divices {
+        display: none;
+        padding: 0;
+        height: 50px;
+        overflow: hidden;
+    }
+
+        nav.divices img.menu {
+            padding: 15px 15px 13px 20px;
+        }
+
+            nav.divices img.menu.active {
+                background: #D8DEE5;
+            }
+
+        nav.divices ul li a {
+            height: 55px;
+            padding: 0 15px;
+        }
+
+        nav.divices ul {
+            position: relative;
+        }
+
+            nav.divices ul li:last-child a {
+                padding-right: 20px;
+            }
+
+            nav.divices ul:before, nav.divices ul:after {
+                position: absolute;
+                content: '';
+                display: table;
+                background: #034DA2;
+                height: 5px;
+                width: 113px;
+                left: 0;
+                top: 0;
+            }
+
+            nav.divices ul:after {
+                top: auto;
+                bottom: 5px;
+            }
+
+    nav.mobNav ul.nav li a {
+        width: 135px;
+        min-height: 60px;
+        font-size: 1.4em;
+    }
+
+    nav.mobNav ul.nav li.active a {
+        background-position: 15px -43px;
+    }
+
+    nav.mobNav ul.nav li.lastLi {
+        display: block;
+    }
+
+        nav.mobNav ul.nav li.lastLi.activeSearch {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #034DA2;
+            width: 100% !important;
+            padding: 0 15px;
+        }
+
+    ul.nav li ul {
+        top: 60px;
+    }
+
+    nav.mobNav ul.nav li ul.waysTran {
+        left: -230px;
+    }
+
+    nav.mobNav ul.nav li ul.learnInvst {
+        left: -130px;
+    }
+
+    nav.mobNav ul.nav li ul li a {
+        width: 100%;
+        padding: 12px 0 0 55px;
+        background: none;
+        min-height: 40px;
+    }
+    /*** Modify - 12-9-2014 ***/
+
+    ul.nav li ul li {
+        padding-right: 0;
+    }
+        /***  Added - 12-9-2014 ***/
+        ul.nav li ul li ul.subMenuMain {
+            margin: 0;
+            padding: 0 0 0 40px;
+        }
+    /***  Added - 12-9-2014 ***/
+    /*ul.nav li ul li ul.subMenuMain li{padding-right:10px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}/***  Added - 12-9-2014 ***/
+
+    .searchFund {
+        width: 100%;
+        height: 55px;
+        background: url(/SiteCollectionImages/SiteImages/topArrow.png) no-repeat center 5px #D8DEE5;
+    }
+
+    .searchBox {
+        width: 450px;
+        left: 50%;
+        margin-left: -225px;
+    }
+
+    nav.mobNav ul.nav li .serchBx a {
+        width: auto;
+    }
+
+    .menuBackBtn {
+        display: block;
+        background: url(/SiteCollectionImages/SiteImages/pagearrow-reverse.png) no-repeat 0 0 #d8dee5;
+        position: absolute;
+        top: 17px;
+        left: 14px;
+        width: 95%;
+        height: 22px;
+    }
+
+        .menuBackBtn:after {
+            content: '';
+        }
+
+    .searchBox .serchBx {
+        width: 420px;
+    }
+
+        .searchBox .serchBx input {
+            width: 380px;
+        }
+
+    .quickBox {
+        width: 100%;
+        height: 100px;
+    }
+
+    .searchFund a {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background: none;
+        height: 27px;
+        padding: 14px 0px;
+    }
+
+        .searchFund a span {
+            background: url(/SiteCollectionImages/SiteImages/redSearch.png) no-repeat scroll 0 0;
+            height: 30px;
+            display: inline-block;
+            padding: 5px 0 0 35px;
+        }
+
+    .planInvset {
+        display: none;
+    }
+
+    ul.fixWrapper {
+        top: 0;
+        left: -90px;
+    }
+
+        ul.fixWrapper li a {
+            width: 90px;
+        }
+
+    .tabWrap {
+        width: 100%;
+        float: left;
+    }
+
+    .fixContainer .contentContainer .myAccWrapper {
+        width: 100%;
+    }
+
+    .myAccWrapper .navTabs#scroller {
+        width: 100%;
+    }
+
+    .myAccWrapperContent {
+        padding: 0 10px;
+    }
+
+    .contentContainer {
+        width: 100%;
+        float: left;
+    }
+
+    .myAccWrapper .navTabs li {
+        font-size: 1.4em;
+    }
+
+        .myAccWrapper .navTabs li a span {
+            top: 60px;
+        }
+
+    .myAccWrapper #scroller.navTabs {
+        padding-bottom: 0;
+        height: 60px;
+    }
+
+    .accontDetail .rowMail input[type="checkbox"] {
+        left: 10px;
+        top: 10px;
+    }
+    /*	.fixContainer{position:absolute; }
+	ul.fixWrapper{position:fixed; left:auto; right:0%; width:25%; top:50%; margin:0px;  }
+	ul.fixWrapper li, ul.fixWrapper li a{width:100%; margin-bottom:0;  }
+	ul.fixWrapper li a{background:#D8DEE5; color:#034DA2; border-bottom:1px solid #B3BCC6;}
+	ul.fixWrapper li a:hover{background:#D8DEE5}
+	ul.fixWrapper li:last-child a{padding:18px 20px;}*/
+
+    nav.divices ul li a.fixNav.active {
+        background: #D8DEE5;
+    }
+    /***** Investment ***********/
+    article.midWrap.doMore {
+        padding: 0;
+    }
+
+    .investOption {
+        width: 240px;
+        min-height: 400px;
+    }
+
+        .investOption .imgSrc {
+            height: 250px;
+            margin-left: -100px;
+        }
+
+        .investOption p {
+            padding: 0;
+        }
+
+    .owl-wrapper .owl-item:first-child .investOption {
+    }
+
+        .owl-wrapper .owl-item:first-child .investOption .imgSrc img {
+            width: 110%;
+        }
+
+    .owl-wrapper .owl-item .investOption .imgSrc img {
+        width: 97%;
+    }
+
+    .owl-controls {
+        display: none !important;
+    }
+    /************** Footer ******/
+    .onlineKEyboard {
+        display: none;
+    }
+
+    ul.footerList li.colSec {
+        width: 48%;
+        margin: 0 0 0 2%;
+    }
+
+    ul.footerList li:first-child {
+        margin: 0;
+    }
+
+    ul.footerList li.colSec.marRgt {
+        margin-right: 2%;
+    }
+
+    ul.commonLink.reachUs li a {
+        margin-left: 15px;
+    }
+
+    ul.footerList > li:nth-child(1) {
+        min-height: 350px;
+    }
+
+    ul.footerList > li:nth-child(2) {
+        min-height: 350px;
+    }
+
+    ul.footerList > li:nth-child(3) {
+        margin: 0;
+    }
+
+    ul.footerList li ul.subList {
+        width: 50%;
+    }
+
+        ul.footerList li ul.subList.ftRght {
+            margin-left: 0;
+        }
+
+            ul.footerList li ul.subList.ftRght li {
+                width: 100%;
+            }
+
+    ul.footerList > li:nth-child(2) ul.subList {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    ul.footerList li ul.subList li.acntTrns a {
+        height: auto;
+        float: left;
+    }
+
+        ul.footerList li ul.subList li.acntTrns a span {
+            line-height: 1.2em;
+            width: 100%;
+            background-position: 95% center;
+            float: left;
+            box-sizing: border-box;
+        }
+
+    ul.footerList li ul.subList.downloadMob {
+        width: 100%;
+    }
+    /*ul.footerList li.colSec.ftAbt{margin:0}*/
+    .subscribe {
+        width: 100%;
+    }
+
+        .subscribe input {
+            width: 194px;
+        }
+
+    ul.commonLink.socialMedia li {
+        width: 25%;
+        margin: 0;
+    }
+
+        ul.commonLink.socialMedia li span {
+            margin: 0;
+        }
+
+        ul.commonLink.socialMedia li label {
+            background-size: 38px auto;
+            padding-top: 4px;
+            min-width: 38px;
+        }
+
+    ul.commonLink.reachUs {
+        width: 100%;
+    }
+
+    ul.commonLink.socialMedia {
+        width: 100%;
+    }
+
+    .mobHide {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .recommendFund .fundBox {
+        width: 210px;
+        padding: 10px;
+        margin-right: 15px;
+    }
+
+        .recommendFund .fundBox h3 {
+            font-size: 1.6em;
+        }
+
+        .recommendFund .fundBox label {
+            font-size: 1.3em;
+        }
+
+            .recommendFund .fundBox label span {
+                font-size: 1.2em;
+            }
+
+        .recommendFund .fundBox:last-child {
+            margin: 0;
+        }
+
+    /************** Fund Detail Page **********/
+    .fndDtl .rowDtl .colDtl_1 {
+        text-align: left;
+    }
+
+    .fundAccord {
+        width: 100%;
+    }
+
+    .graphTab {
+        width: 435px;
+        margin-right: 15px;
+    }
+
+        .graphTab .selectInfo {
+            width: auto;
+            float: left;
+        }
+
+        .tableView .selectInfo, .graphTab h2 {
+            margin-left: 72px;
+        }
+
+    .tableView .rhsGraph {
+        width: 235px;
+    }
+
+    .graphTab .selectInfo p {
+        width: 60px;
+    }
+
+    .graphTab img.graphImg {
+        width: 101%;
+    }
+
+    .fundAccord .accordDiv {
+        min-height: 70px;
+        padding: 18px 0 18px 45px;
+    }
+
+        .fundAccord .accordDiv h2 {
+            font-size: 1.6em;
+            min-width: 200px;
+            margin-right: 0;
+        }
+
+    .fundAccord .accordDiv {
+        background-position: 15px -30px;
+    }
+
+        .fundAccord .accordDiv.act {
+            background-position: 15px 34px;
+        }
+
+    .whyInvest {
+        width: 47%;
+        margin-right: 3%;
+    }
+
+    .howInvset {
+        width: 50%;
+        margin: 0;
+    }
+
+    .whyInvest ul.nav li a {
+        font-size: 1.3em;
+        padding-left: 75px;
+    }
+
+    .recommendFund .fundBox {
+        margin-right: 20px;
+    }
+
+    .accordDetail {
+        width: 100%;
+        top: -20px;
+    }
+
+        .accordDetail .testimonialBlock {
+            padding: 0;
+        }
+
+        .accordDetail .detailBlock .imgPath img {
+            margin-top: 10px;
+            width: 35px;
+        }
+
+        .accordDetail .detailBlock .detail .quickBox, .accordDetail .detailBlock .detail {
+            padding-right: 10px;
+        }
+
+            .accordDetail .detailBlock .detail .quickBox ul li a {
+                font-size: 1.6em;
+            }
+
+    .investBox .chkFund .checkbox {
+        margin-top: -2px;
+    }
+
+    .accordDivDetail .radioWrap .radio, .tableView .selectInfo .radio {
+        margin-top: -3px;
+    }
+
+    .investBox .chkFund li {
+        padding: 15px 10px 5px 10px;
+    }
+
+    .accordDivDetail .download {
+        width: 415px;
+        margin-right: 20px;
+    }
+
+        .accordDivDetail .download.tools {
+            width: 250px;
+        }
+    /*==================Login========================*/
+    .loginSection {
+        position: relative;
+    }
+
+    .loginMob {
+        display: none; /*** Indigo changes - 27-8-2014 ***/
+    }
+
+    .loginClick {
+        display: none;
+    }
+
+    .loginWrapper, .loginWrapper .registerWrapper {
+        width: 100%;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .loginWrapper .loginContent, .loginWrapper .registerWrapper .registerContent {
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .regisContent .contentWrapper, .regisContent .contentWrapper .regContent {
+        width: 100%;
+    }
+
+        .regisContent .contentWrapper h1 {
+            padding: 0 0px 0 20px;
+        }
+
+    .loginWrapper .loginReg {
+        width: 100%;
+    }
+
+    .virtual {
+        display: none;
+    }
+
+    .loginContent .rightContent {
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+
+    .loginContent .googleConnect span.link {
+        margin: 0 0 0 5px;
+    }
+
+    .loginContent .googleConnect span.text {
+        margin: 0 6px 0 0;
+    }
+
+    .loginContent .leftContent {
+        border-right: none;
+        padding: 0 0 20px;
+        border-bottom: 1px solid #d5d8dd;
+        width: 100%;
+    }
+    /*==================End ofLogin========================*/
+    .myAccWrapper .infoContent {
+        width: 291px;
+    }
+
+    .infoContent .valueDetails {
+        margin-bottom: 10px;
+    }
+
+    .investBtn {
+        width: auto;
+        float: left;
+    }
+
+        .investBtn a {
+            left: 9%;
+            margin: 30px 0 10px;
+        }
+
+    .infoContent .pieChart {
+        width: 100%;
+        text-align: center;
+    }
+
+    .infoContent .pieChartContent {
+        width: 100%;
+        float: left;
+    }
+
+        .infoContent .pieChartContent a.snapshot {
+            float: left;
+        }
+
+    .pieChartContent ul {
+        width: 100%;
+    }
+
+    /********* Invest Now ******/
+    .investWrap {
+        width: 100%;
+    }
+
+    .investTabWrap .tabDetail .row {
+        padding: 15px 20px;
+    }
+
+    .investTabWrap ul.tab li.step3 a label {
+        float: none;
+    }
+
+    .investTabWrap .tabDetail .toolTipDetail {
+        left: 100px;
+        width: 500px;
+    }
+
+    .investStart .stepBox {
+        width: 200px;
+        min-height: 122px;
+    }
+
+    .investTabWrap ul.tab li a {
+        font-size: 1.4em;
+    }
+
+    .stepConfirm {
+        padding: 15px 20px;
+    }
+
+    .tabDetail h3 {
+        padding: 15px 20px;
+    }
+
+    .stepConfirm h3 {
+        padding: 10px 0;
+    }
+
+    .investTabWrap .tabDetail .knowMor a, .investTabWrap .tabDetail .knowMor.cancelLeft a {
+        margin-left: 20px;
+    }
+    /********* Invest Now ******/
+
+    .myAccWrapper .infoContent {
+        width: 262px;
+    }
+
+    .folioTitle {
+        padding: 0 0px;
+    }
+
+        .folioTitle h3, .folioVal .folioValContent h3, .investBtn a, .folioLinks ul li a {
+            font-size: 1.4em;
+        }
+
+        .folioTitle h2 {
+            font-size: 1.6em;
+        }
+
+        .folioTitle a, .folioVal label {
+            font-size: 1.2em;
+        }
+
+    .folioValContent {
+        padding: 0 16px;
+    }
+
+    .folioVal .folioValContent h3 {
+        background-size: 8px;
+    }
+
+    .folioAccordHead.active .folioVal .folioValContent h3 {
+        background-position: 0 -26px;
+    }
+
+    .fundDetailsCont .fundValDetails {
+        padding: 0 8px 30px;
+    }
+
+    .fundName h2, .folioAccordCont label {
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+
+    .fundDetailsCont .fundName {
+        padding-right: 10px;
+        width: 132px;
+    }
+
+    .fundValDetails h3 {
+        background-size: 8px;
+    }
+
+    .lockedFree .toolTipDetail {
+        max-width: 100px;
+    }
+
+    .systematicplan .fundDetailsCont .fundName {
+        width: 100%;
+    }
+
+    .systematicplan .folioAccordCont .fundName label {
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .systematicplan .fundDetailsCont .fundName {
+        margin-bottom: 20px;
+    }
+    /*.systematicplan .actionBtn{ margin-left: -25px;margin-top: -60px;}*/
+    .systematicplan .actionBtn a {
+        padding: 10px;
+    }
+
+    .contentWrap {
+        width: 100%;
+        overflow: hidden;
+    }
+
+        .contentWrap .block {
+            width: 33.33%;
+            padding: 15px 15px 0 15px;
+        }
+
+
+    /*==================Why RMF========================*/
+    .imgDiv img {
+        width: 100%;
+    }
+
+    .whyRmfContainer .imgDiv {
+        float: none;
+        margin: 0 auto;
+        padding: 15px 0 0;
+        width: 100px;
+    }
+
+    .whyRmfContainer .content {
+        padding: 15px 0 0;
+        width: 100%;
+    }
+
+        .whyRmfContainer .content h1 {
+            font-size: 2.5em;
+        }
+
+        .whyRmfContainer .content p {
+            clear: both;
+            font-size: 1.2em;
+        }
+
+    .storiesContainer, .storiesContainer .header {
+        padding: 10px 0 0 0;
+    }
+
+        .storiesContainer .header h2 {
+            font-size: 1.8em;
+        }
+
+        .storiesContainer .smallGrid, .storiesContainer .bigGrid {
+            width: 100%;
+        }
+
+    .smallGrid .imgIcon, .bigGrid .imgIcon {
+        float: none;
+        width: 85px;
+        margin: 0 auto;
+    }
+
+    .smallGrid .textContent {
+        width: 100%;
+        padding: 15px 0 0 0;
+    }
+
+        .smallGrid .textContent h2 {
+            font-size: 2.6em;
+        }
+
+    .storiesContainer .smallGrid.peoplesChoice, .storiesContainer .smallGrid.expertise {
+        margin-bottom: 10px;
+    }
+
+    .smallGrid.expertise .textContent, .smallGrid.foundation .textContent {
+        padding: 44px 0 0 0;
+    }
+
+    .bigGrid .gridWrapper .textContent {
+        width: 100%;
+        padding: 0px;
+    }
+
+        .bigGrid .gridWrapper .textContent h2 {
+            font-size: 2.4em;
+        }
+
+        .bigGrid .gridWrapper .textContent p {
+            font-size: 1.6em;
+        }
+
+    .activeContent .activeContentWrapper2 ul {
+        width: 740px;
+    }
+
+    .activeContent ul li {
+        padding: 0 20px;
+        width: 200px;
+    }
+
+    .bigGrid .activeContent ul li {
+        padding: 0 14px;
+        width: 218px;
+    }
+
+    .storiesContainer .header p span.leftBorder {
+        left: 35px;
+    }
+
+    .storiesContainer .header p span.rightBorder {
+        right: 35px;
+    }
+
+    /*.activeContent .closeActiveBtn {
+        left: 10px;
+        right: 0px;
+    }*/ /*** Indigo changes - 27-8-2014 ***/
+
+    .activeContent ul li.first h2 {
+        background-position: 12px;
+    }
+
+    .activeContent ul li.second h2, .activeContent ul li.third h2 {
+        background-position: 16px 12px;
+    }
+
+    .storiesContainer .smallGrid.expertise .activeContent p, .storiesContainer .smallGrid.foundation .activeContent p {
+        font-size: 1.8em;
+    }
+    /*==================End of Why RMF========================*/
+
+    /*********************** Track Fund ******************/
+    .tarckWrap ul li.fundname {
+        width: 180px;
+        padding: 0 10px 0 0;
+    }
+
+        .tarckWrap ul li.fundname h2 {
+            font-size: 1.7em;
+        }
+
+    .tarckWrap ul li.fundDate {
+        width: 340px;
+    }
+
+    .tarckWrap ul li.download {
+        width: 135px;
+    }
+
+    .valueBox {
+        padding: 0 8px;
+    }
+
+        .valueBox span.val {
+            font-size: 2em;
+        }
+
+    .tarckWrap p {
+        font-size: 1.2em;
+    }
+
+    .tarckWrap ul li.download p {
+        font-size: 1.1em;
+    }
+
+    .multiInvest {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .boxInvst {
+        width: 49%;
+        min-height: 145px;
+    }
+
+        .boxInvst .or {
+            right: -23px;
+        }
+    /*********************** Track Fund ******************/
+
+    /************** Start of NFo *************/
+    .nfoContentWrap {
+        width: 100%;
+    }
+
+        .nfoContentWrap .schemeType {
+            margin: 20px 0;
+        }
+
+    .tableWrapper {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+        .tableWrapper .table {
+            width: 860px;
+        }
+    /************** End of NFo *************/
+
+    /************ Start Locate Us ************/
+
+    .detailLocate .row {
+        padding: 15px;
+    }
+
+        .detailLocate .row .lhs {
+            width: 40%;
+        }
+
+        .detailLocate .row .rhs {
+            width: 60%;
+            margin: 0;
+        }
+
+    .mapRowWrap {
+        width: 40%;
+    }
+
+    .rowMap {
+        width: 60%;
+    }
+
+    .detailLocate .mapRowWrap .row {
+        padding: 15px 12px;
+    }
+
+    .headLocate h4 {
+        height: 45px;
+    }
+    /************ End Locate Us ************/
+    .fundviewBox #scroll {
+        overflow: auto;
+    }
+
+    ul.legents {
+        width: 100%;
+    }
+
+    /************ Start About RMF ************/
+    .rhsWrapper h1 {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+
+    .middleContainer {
+        position: relative;
+    }
+
+    .lhsWrapper {
+        width: 250px;
+        margin: 0;
+        position: absolute;
+        left: -250px;
+    }
+
+    .rhsWrapper {
+        width: 100%;
+        position: relative;
+    }
+
+        .rhsWrapper img.banner {
+            width: 100%;
+        }
+
+    .menuSubnav {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15px;
+        height: 21px;
+        background: url(/SiteCollectionImages/SiteImages/pagearrow-reverse.png) no-repeat center 0;
+        cursor: pointer;
+    }
+
+        .menuSubnav.active {
+            background: url(/SiteCollectionImages/SiteImages/pagearrow.png) no-repeat center 0;
+        }
+
+    ul.lhsLinks {
+        width: 230px;
+    }
+    /************ End About RMF ************/
+
+
+
+    /********** Start Glossary *******/
+    .glossaryLt {
+        width: 10%;
+    }
+
+    .glossaryRt {
+        width: 90%;
+        padding: 10px 20px;
+    }
+    /********** End Glossary *******/
+
+    /* learn and invest style starts */
+    .learnInvest {
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+
+    .blueInvest {
+        width: 98%;
+        padding: 15px 10px;
+    }
+
+    .whenInvest {
+        width: 49%;
+        margin: 15px 1% 15px 0;
+    }
+
+        .whenInvest ul li {
+            margin-bottom: 8px;
+        }
+
+            .whenInvest ul li h4 {
+                padding: 0 0 2px 0;
+            }
+
+    .ToolBox {
+        padding: 0;
+    }
+
+        .ToolBox h2 {
+            margin: 15px 0;
+        }
+
+    .toolBtnLt {
+        padding: 0;
+        width: 138px;
+    }
+    /* learn and invest style starts */
+
+    .investWrapper {
+        width: 100%;
+    }
+
+    .boxContent ul li a {
+        font-size: 1.4em;
+    }
+
+    .activeContent p {
+        font-size: 1.6em;
+    }
+
+    /****** Goal Planner And Risk Analyzer Start**********/
+    .goalWrapper .goalWrap ul.goals {
+        width: 70%;
+    }
+
+    .goalForm {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    .goalWrapper .knowMor a.cancelLink {
+        margin: 25px 0 0 10px;
+    }
+
+    ul.goals li h3, .goalBlock h3 {
+        font-size: 1.5em;
+    }
+
+    .goalBlock {
+        width: 30%;
+    }
+
+    .resultBlock {
+        width: 65%;
+        margin-left: 5%;
+    }
+
+    .schemesWrap .schemeRow .schemeName, .riskWrapper .schemeRow label {
+        width: 50%;
+    }
+
+    .schemesWrap .schemeRow .linking {
+        width: 50%;
+    }
+
+    .riskWrapper .goalWrap ul.goals {
+        width: 100%;
+    }
+
+    .riskWrapper label.terms, .riskWrapper label.allocation {
+        width: 25%;
+    }
+    /****** Goal Planner And Risk Analyzer End**********/
+
+    ul.commonLink.socialMedia li label {
+        height: 24px;
+        margin-top: 0;
+        padding-top: 11px;
+        top: 5px;
+    }
+        /*** Indigo-Added-22-10-2014 ***/
+        ul.commonLink.socialMedia li label:before {
+            content: '';
+            height: 0;
+            width: 0;
+            display: block;
+            border: 4px transparent solid;
+            border-top-width: 0;
+            border-bottom-color: #8ca1b2;
+            position: absolute;
+            top: -4px;
+            left: 50%;
+            margin-left: -2px;
+        }
+    /*** Indigo-Added-22-10-2014 ***/
+
+    .SubscribeForLatestDivReqField {
+        padding-left: 20px;
+        border: none;
+        float: left;
+        position: relative;
+    }
+}
+
+
+
+
+@media only screen and (min-width : 0px) and (max-width : 640px) {
+
+
+
+
+
+    /*---Prodigi 23 march 2015 ---*/
+    .waysTransact .accordian h2 span.purchase_icon {
+        background-color: #77d7c3;
+        background-position: -61px -414px;
+    }
+
+    .waysTransact .accordian h2 span.sip_icon {
+        background-color: #92cfec;
+        background-position: -137px -416px;
+    }
+
+    .waysTransact .accordian h2 span.redeem_icon {
+        background-color: #f0d676;
+        background-position: -215px -414px;
+    }
+
+    .waysTransact .accordian h2 span.switch_icon {
+        background-color: #c29ece;
+        background-position: -281px -414px;
+    }
+
+    .waysTransact .accordian h2 span.swp_icon {
+        background-color: #c2d591;
+        background-position: -4px -476px;
+    }
+
+    .waysTransact .accordian h2 span.stp_icon {
+        background-color: #eda9a2;
+        background-position: -89px -476px;
+    }
+
+    /*---Prodigi---*/
+
+    body {
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .subscribeBox {
+        display: none !important;
+    }
+
+    .accordWrap .accordHead, .searchfundDetail, .quickBox, #footerBtm p, .subscribe input, .subscribe a, nav.mobNav ul.nav li a, nav.mobNav ul.nav li ul li a, article.midWrap, .quickBox, #retailWrap, #retailWrap ul.retailWrap li a, .container, .accordDetail, ul.fixWrapper li a, .investTabWrap .tabDetail .row .detail .selectedvalue, .investTabWrap .tabDetail .row .detail.distribute input, .investTabWrap .tabDetail .row .detail input, .reinvest, .termsWrap, .investStart, .investStart .stepBox, .lightBox, .investTabWrap .tabDetail .rowHidden, .detailStep, .wrapBox .searchScheme, .wrapBox .selectedvalue, .tableView .rhsGraph h2, .tarckWrap ul, .blueInvest, .whenInvest ul li, .blueInvest ul li a {
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        box-sizing: border-box; /* Opera/IE 8+ */
+    }
+
+    h1 {
+        font-size: 2.2em;
+        width: auto;
+        padding: 15px 0 10px 0;
+        margin: 0;
+    }
+
+    .investTabWrap ul.tab {
+        width: auto;
+        float: right;
+    }
+
+        .investTabWrap ul.tab li {
+            width: 30px !important;
+        }
+
+    .investTabWrap .tabDetail .rowHidden {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .investStart .knowMor a {
+        margin: 0 0 0 -60px;
+    }
+
+    article.midWrap, .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    nav.mobNav article.midWrap {
+        padding: 0 0 15px 0;
+        background: #d8dee5;
+        float: left;
+        margin: 75px 0 0 0;
+        height: 100%;
+    }
+
+    .bannerWrap .tabWrap, .bannerWrap article, .header, .footer, .mutualWrap .topHead, .accordWrap {
+        width: 100%;
+    }
+
+        .planInvset, .accordWrap .accordHead {
+            margin: 0 0 0 12px;
+        }
+
+            .accordWrap .accordHead:first-child {
+                margin: 0;
+            }
+
+    .headWrap {
+        height: 57px;
+        padding: 15px 0 0 0;
+    }
+
+    .headWrp {
+        padding: 15px 0 5px 0;
+    }
+
+        .headWrp h1 {
+            padding: 10px 0 5px 0;
+        }
+
+    .headWrap a.logo {
+        margin: 0;
+    }
+
+    .headWrap .rhsHead ul {
+        display: none;
+    }
+
+    nav.divices {
+        display: block;
+        padding: 0;
+        height: 50px;
+        overflow: hidden;
+    }
+
+        nav.divices img.menu {
+            padding: 15px 15px 13px 20px;
+        }
+
+            nav.divices img.menu.active {
+                background: #D8DEE5;
+            }
+
+        nav.divices ul li a {
+            height: 55px;
+            padding: 0 15px;
+        }
+
+        nav.divices ul {
+            position: relative;
+        }
+
+            nav.divices ul li:last-child a {
+                padding-right: 20px;
+            }
+
+            nav.divices ul:before, nav.divices ul:after {
+                position: absolute;
+                content: '';
+                display: table;
+                background: #034DA2;
+                height: 5px;
+                width: 113px;
+                left: 0;
+                top: 0;
+            }
+
+            nav.divices ul:after {
+                top: auto;
+                bottom: 5px;
+            }
+
+    nav.mobNav {
+        position: absolute;
+        width: 40%;
+        z-index: 5;
+        background: #203349;
+        left: -40%;
+        float: left;
+    }
+
+        nav.mobNav ul.nav li, nav.mobNav ul.nav li a {
+            width: 100%;
+            text-align: left;
+            color: #034da2;
+            border-left: none;
+        }
+
+        nav.mobNav ul.nav > li {
+            border-bottom: 1px solid #b3bcc6;
+        }
+
+            nav.mobNav ul.nav > li.active {
+                border-bottom: none;
+            }
+
+        nav.mobNav ul.nav li a {
+            padding: 0px 15px 0 40px;
+            height: 50px;
+            display: table-cell;
+            vertical-align: middle;
+            float: none;
+            background: url(/SiteCollectionImages/SiteImages/plus1.png) no-repeat 15px 17px;
+        }
+
+        nav.mobNav ul.nav li.active a {
+            background-position: 15px -43px;
+        }
+
+        nav.mobNav ul.nav li a br {
+            display: none;
+        }
+
+        nav.mobNav ul.nav li.lastLi {
+            display: none;
+        }
+
+        nav.mobNav ul.nav li.firstLi {
+            display: none;
+        }
+
+        /**nav.mobNav ul.nav li:nth-child(2) ul {display:block!important;}  need to be removed **/
+
+        nav.mobNav ul.nav li ul {
+            width: 100%;
+            padding: 0 0 0 20px;
+            box-sizing: border-box;
+            top: 0;
+            position: relative;
+            box-shadow: none;
+            left: 0;
+            overflow: hidden;
+        }
+
+    ul.nav li ul li ul.subMenuMain {
+        position: absolute;
+        left: 100%;
+    }
+
+        ul.nav li ul li ul.subMenuMain li {
+            width: 100%;
+        }
+
+    nav.mobNav ul.nav li ul.waysTran {
+        left: 0;
+    }
+
+    nav.mobNav ul.nav li ul li {
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        background: url(/SiteCollectionImages/SiteImages/pagearrow.png) no-repeat 96% 14px;
+    }
+
+        nav.mobNav ul.nav li ul li a {
+            width: 640px;
+            padding: 0 0 0 43px;
+            background: none;
+        }
+
+    .searchFund {
+        width: 100%;
+        height: 55px;
+        background: url(/SiteCollectionImages/SiteImages/topArrow.png) no-repeat center 5px #D8DEE5;
+    }
+
+    .quickBox {
+        width: 100%;
+        height: 100px;
+    }
+
+    .searchFund a {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background: none;
+        height: 27px;
+        padding: 14px 0px;
+    }
+
+    .mobNav #retailWrap {
+        display: block;
+        float: left;
+        min-height: 350px;
+        width: 100%;
+        background: none;
+        padding: 0 15px;
+    }
+
+    #retailWrap h2 {
+        display: block;
+    }
+
+    #retailWrap ul.retailWrap {
+        display: block;
+    }
+
+        #retailWrap ul.retailWrap li:first-child a {
+            background: #284b72;
+            color: #fff;
+        }
+
+        #retailWrap ul.retailWrap li {
+            width: 215px;
+            float: left;
+            margin: 12px 0 0 0;
+            text-align: center;
+            border: 1px solid #034da2;
+        }
+
+    ul.retailWrap li a {
+        width: 100%;
+        color: #034da2;
+        padding: 14px 0;
+    }
+
+    .searchFund a span {
+        background: url(/SiteCollectionImages/SiteImages/redSearch.png) no-repeat scroll 0 0;
+        height: 30px;
+        display: inline-block;
+        padding: 5px 0 0 35px;
+    }
+
+    .planInvset, .clickRetail {
+        display: none;
+    }
+
+    ul.fixWrapper {
+        position: absolute;
+        left: auto;
+        right: -25%;
+        width: 25%;
+        top: 0;
+        margin: 0px;
+        background: #203349;
+        padding-top: 75px;
+    }
+
+        ul.fixWrapper li, ul.fixWrapper li a {
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+            ul.fixWrapper li a {
+                background: #D8DEE5;
+                color: #034DA2;
+                border-bottom: 1px solid #B3BCC6;
+            }
+
+                ul.fixWrapper li a:hover {
+                    background: #D8DEE5;
+                }
+
+            ul.fixWrapper li:last-child a {
+                padding: 18px 20px;
+            }
+
+    nav.divices ul li a.fixNav.active {
+        background: #D8DEE5;
+        top: 0;
+        position: relative;
+        height: 60px;
+    }
+
+
+    .mutualWrap {
+        top: 0;
+    }
+
+    .bannerWrap article aside {
+        width: 100%;
+        height: auto;
+    }
+
+        .bannerWrap article aside h2, .bannerWrap article aside p, .bannerWrap img.couple, .bannerWrap img.rhsImg {
+            left: 0;
+            opacity: 1;
+            font-size: 1.8em;
+        }
+
+        .bannerWrap article aside h2 {
+            margin: 10px 0 5px 0;
+        }
+
+        .bannerWrap article aside p {
+            font-size: 1em;
+            margin: 0;
+        }
+
+            .bannerWrap article aside p.btmTxt {
+                display: none;
+            }
+
+    .bannerWrap img.couple {
+        width: 55%;
+        top: 25%;
+        /*display:none;*/
+    }
+    /* .bannerWrap img.couple.couplemobile {
+        width:100%;
+        top:0%;
+        display:block;
+    }*/
+
+    .bannerWrap img.rhsImg {
+        max-width: 180px;
+        top: 80px;
+        left: auto;
+        right: 10%;
+    }
+
+    .bannerWrap ul.tabWrap {
+        right: 50%;
+        bottom: 5px;
+    }
+
+    .bannerWrap .knowMor {
+        bottom: 80px;
+        position: absolute;
+        width: 100%;
+        left: auto;
+        right: 0;
+    }
+
+        .bannerWrap .knowMor a {
+            position: absolute;
+            left: auto;
+            right: 15%;
+            margin-left: 0;
+        }
+
+    .headWrap {
+        height: 35px;
+        padding: 10px 0 0 0;
+    }
+
+        .headWrap a.logo {
+            width: 110px;
+        }
+
+            .headWrap a.logo img {
+                width: 100%;
+            }
+
+    .rhsHead {
+        width: 140px;
+    }
+
+        .rhsHead h3 {
+            font-size: 1.3em;
+        }
+
+        .rhsHead p {
+            font-size: 0.9em;
+        }
+
+    .oldsitelink {
+        padding-bottom: 7px;
+        margin-top: -5px;
+        font-size: 1.1em !important;
+    }
+
+    nav.mobNav {
+        width: 80%;
+        left: -80%;
+    }
+
+        nav.mobNav article.midWrap {
+            margin: 48px 0 0 0;
+        }
+
+    nav.divices img.menu {
+        padding: 15px 15px 13px 15px;
+    }
+
+    nav.divices ul li a {
+        padding: 0 10px;
+    }
+
+    nav.divices ul li:last-child a {
+        padding-right: 15px;
+    }
+
+    nav.divices ul:before, nav.divices ul:after {
+        width: 93px;
+    }
+
+
+    .mutualWrap .topHead .lineHead span, .mutualWrap .topHead .lineHead h1 {
+        font-size: 2em;
+    }
+
+    .mutualWrap .topHead h2 {
+        font-size: 1.2em;
+    }
+
+    .accordWrap {
+        margin: 15px 0;
+    }
+
+        .accordWrap .accordHead {
+            width: 100%;
+            height: 60px;
+            margin: 10px 0 0 0;
+            background: url(/SiteCollectionImages/SiteImages/plus1.png) no-repeat 10px 17px #d8dee5;
+            background-size: 22px auto;
+            padding-left: 35px;
+        }
+
+            .accordWrap .accordHead .clear {
+                float: left;
+                clear: none;
+            }
+
+        .accordWrap .imgSrc {
+            width: 40px;
+            float: left;
+            height: 30px;
+        }
+
+            .accordWrap .imgSrc img {
+                width: 75%;
+                height: 100%;
+            }
+
+        .planInvset p, .accordWrap .accordHead p {
+            padding: 0;
+            width: auto;
+            margin: 10px 0 0 0;
+            font-size: 1.7em;
+        }
+
+        .accordWrap .accordHead img.plus {
+            position: relative;
+            top: 8px;
+            display: none;
+        }
+
+    .accordDetail {
+        position: relative;
+        width: 100%;
+    }
+
+    .quickBox {
+        padding: 10px 15px;
+        height: auto;
+    }
+
+        .quickBox p {
+            text-align: center;
+        }
+
+        .quickBox ul li {
+            margin: 4px;
+            width: 47%;
+        }
+
+            .quickBox ul li:first-child {
+                margin: 4px;
+            }
+
+            .quickBox ul li a {
+                width: 100%;
+                font-size: 1.3em;
+                height: 25px;
+                padding-top: 12px;
+            }
+
+    .searchfundDetailBox, .searchfundDetail {
+        width: 100%;
+    }
+
+    .searchfundDetailBox {
+        height: 0px;
+        left: 0;
+        top: 185px;
+    }
+
+    .searchfundDetail {
+        padding: 30px 15px 15px;
+    }
+
+    .topHead {
+        width: 95%;
+    }
+
+        .topHead .lineHead span {
+            font-size: 1.6em;
+        }
+
+        .topHead h2 {
+            font-size: 2.1em;
+        }
+
+        .topHead pf {
+            font-size: 1.2em;
+        }
+
+    .investOption {
+        width: 100%;
+    }
+
+        .investOption p {
+            width: 100%;
+            text-align: center;
+        }
+
+        .investOption .imgSrc {
+            margin-left: -140px;
+        }
+
+    .owl-wrapper .owl-item:first-child .investOption .imgSrc img {
+        width: 260px;
+    }
+
+    .owl-wrapper .owl-item .investOption .imgSrc img {
+        width: 230px;
+        left: 40px;
+    }
+
+    .owl-wrapper .owl-item .investOption:first-child {
+        margin-left: 0px;
+    }
+
+    .owl-controls {
+        display: block !important;
+    }
+
+    ul.footerList li.colSec {
+        width: 100%;
+        margin: 0;
+    }
+
+        ul.footerList li.colSec div, ul.footerList li.colSec ul {
+            width: 100%;
+        }
+
+            ul.footerList li.colSec div.haveusDetail {
+                width: 300px;
+            }
+
+        ul.footerList li.colSec.ftAbt {
+            margin: 15px 0 0 0;
+        }
+
+    .subscribe input {
+        width: 64%;
+        margin: 0 2px 0 0;
+        float: left;
+        font-size: 1.2em;
+        min-height: 40px;
+    }
+
+    .subscribe a {
+        width: 35%;
+        margin: 0;
+        height: 14px;
+        font-size: 1.3em;
+        min-height: 40px;
+    }
+
+    ul.footerList li.colSec ul.commonLink.reachUs {
+        width: 75%;
+    }
+
+        ul.footerList li.colSec ul.commonLink.reachUs li {
+            width: 25%;
+            margin: 10px 0;
+        }
+
+            ul.footerList li.colSec ul.commonLink.reachUs li a {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                font-size: 1.2em;
+            }
+
+                ul.footerList li.colSec ul.commonLink.reachUs li a span {
+                    width: 60px;
+                    height: 60px;
+                    float: left;
+                    margin-left: 5px;
+                }
+
+    ul.commonLink.reachUs li.callImg a span {
+        background-position: -225px 15px;
+    }
+
+    ul.commonLink.reachUs li.chatImg a span {
+        background-position: -294px 15px;
+    }
+
+    ul.commonLink.reachUs li.locateImg a span {
+        background-position: -361px 13px;
+    }
+
+    ul.commonLink.reachUs li.advisorImg a span {
+        background-position: -421px 16px;
+    }
+
+
+    #footerBtm {
+        padding: 10px 0;
+    }
+
+        #footerBtm p {
+            font-size: 1.1em;
+            padding: 10px 10px 0px 10px;
+        }
+
+            #footerBtm p.copyRgt {
+                margin: 0;
+            }
+
+    .fixContainer {
+        position: absolute;
+        width: 70%;
+        right: -70% !important;
+        top: 0 !important;
+    }
+
+    ul.fixWrapper {
+        right: 0%;
+        width: 100%;
+        padding-top: 48px;
+    }
+
+    ul.bullet li {
+        font-size: 1.4em;
+        line-height: 1.2em;
+    }
+
+
+    .headWrp .selectbg {
+        width: 120px;
+        margin-right: 10px;
+    }
+
+    .headWrp .selectedvalue {
+        width: 83px;
+    }
+
+    .headWrp .selectbg select {
+        width: 120px;
+    }
+
+    .investBox .chkFund {
+        display: none;
+        position: absolute;
+        right: -15px;
+        width: 200px;
+        top: 55px;
+        z-index: 10;
+        margin: 0;
+    }
+
+        .investBox .chkFund li {
+            padding: 5px 10px;
+        }
+
+        .investBox .chkFund ul {
+            padding: 15px 0 10px 0;
+            background: #E9EEF3;
+            float: left;
+        }
+
+    .investBox .invstMore {
+        display: block;
+    }
+
+    .whyInvest {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .knowMor a {
+        font-size: 1.3em;
+        width: 119px;
+        height: 25px;
+        padding-top: 10px;
+    }
+
+    .whyInvest h2, .recommendFund h2 {
+        font-size: 1.8em;
+    }
+
+
+    /************ Fund Detail page *************/
+    .fundAccord .accordDiv h2 {
+        padding: 0 0 15px 0;
+        margin-right: 0;
+    }
+
+    .fundAccord .accordDiv {
+        height: 50px;
+        overflow: hidden;
+        padding: 15px 0 10px 35px;
+        min-height: 0;
+        background-position: 10px -48px;
+        position: relative;
+    }
+
+        .fundAccord .accordDiv.act {
+            background-position: 10px 14px;
+            height: auto;
+        }
+
+            .fundAccord .accordDiv.act:before {
+                background: #284B72;
+                content: "";
+                display: block;
+                height: 60px;
+                left: 5px;
+                position: absolute;
+                top: 51px;
+                width: 25px;
+            }
+
+        .fundAccord .accordDiv ul {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .fundAccord .accordDiv.act ul {
+            margin: 0;
+        }
+
+        .fundAccord .accordDiv.act h2 {
+            padding: 0 0 0px;
+        }
+
+        .fundAccord .accordDiv.act ul li {
+            border: none;
+            padding: 0;
+        }
+
+        .fundAccord .accordDiv ul li {
+            font-size: 1em;
+        }
+
+            .fundAccord .accordDiv ul li span {
+                font-size: 1.4em;
+            }
+
+            .fundAccord .accordDiv ul li:first-child {
+                width: 40%;
+            }
+
+            .fundAccord .accordDiv ul li:last-child {
+                width: 60%;
+            }
+
+    .accordDivDetail {
+        padding: 10px;
+    }
+
+    .table tr td {
+        font-size: 1.2em;
+    }
+
+    .accordDivDetail a.readMore {
+        font-size: 1.1em;
+        color: #034da2;
+        display: block;
+    }
+
+    .accordDivDetail p.moreCont {
+        display: none;
+    }
+
+    .accordDivDetail .tableView {
+        overflow: hidden;
+    }
+
+    .graphTab, .tableView .rhsGraph {
+        width: 100%;
+    }
+
+        .tableView .selectInfo, .graphTab h2 {
+            margin: 0;
+        }
+
+        .graphTab h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .tableView .rhsGraph h2 {
+            width: 100%;
+            float: left;
+            padding: 15px 10px;
+            height: auto;
+        }
+
+        .graphTab .selectInfo {
+            min-height: 0;
+            float: left;
+            padding: 10px 0;
+        }
+
+        .graphTab img.graphImg {
+            margin: 0;
+        }
+
+    .rhsGraph .box input {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .dateBox {
+        margin: 10px 0 0 0;
+        width: 165px;
+    }
+
+    .monthSIP {
+        margin-top: 10px;
+    }
+
+    .dateBox .dtBox input {
+        margin: 0;
+    }
+    /*.table tr td:first-child, .table tr th:first-child{width:120px; float:left}*/
+    .pieChartDetl .table tr td:first-child {
+        width: 120px;
+        float: none;
+    }
+
+    .accordDetail {
+        padding: 15px;
+        top: 0;
+    }
+
+        .accordDetail .detailBlock, .accordDetail .detailBlockCustom {
+            width: 100%;
+        }
+
+        .accordDetail .testimonialBlock {
+            width: 100%;
+        }
+
+        .accordDetail .detailBlock .imgPath, .accordDetail .detailBlockCustom .imgPath {
+            display: none;
+        }
+
+        .accordDetail .detailBlock .detail .quickBox, .accordDetail .detailBlock .detail, .accordDetail .detailBlockCustom .detail .quickBox, .accordDetail .detailBlockCustom .detail {
+            padding: 0;
+            width: 100%;
+        }
+
+            .accordDetail .detailBlock .detail h2, .accordDetail a.closeBtn, .accordDetail .detailBlockCustom .detail h2 {
+                display: none;
+            }
+
+            .accordDetail .detailBlock .detail .quickBox ul li a {
+                padding-top: 10px;
+                height: 20px;
+            }
+
+            .accordDetail .detailBlockCustom .detail .quickBox ul li a {
+                height: 25px;
+                padding: 7px 0 15px;
+            }
+
+        .accordDetail .detailBlock .imgPath img {
+            width: 30px;
+        }
+
+        .accordDetail .detailBlock .detail h2 {
+            font-size: 2em;
+        }
+
+        .accordDetail .detailBlock .detail p, .accordDetail .testimonialBlock .blockDetail p {
+            font-size: 1.3em;
+        }
+
+    .searchfundDetail input {
+        width: 80%;
+    }
+
+    .searchfundDetail .searchQuick {
+        width: auto;
+        padding-right: 5px;
+    }
+
+    .searchfundDetail .closeQuick {
+        margin-left: 5px;
+    }
+
+    ul.commonLink.reachUs li label {
+        width: 65px;
+    }
+
+    .fndDtl .rowDtl {
+        padding: 10px 0 15px 0;
+    }
+
+        .fndDtl .rowDtl span {
+            font-size: 1.8em;
+        }
+
+        .fndDtl .rowDtl .colDtl_4 {
+            width: 100%;
+        }
+
+        .fndDtl .rowDtl .colDtl_1 {
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            font-size: 1.4em;
+        }
+
+        .fndDtl .rowDtl .colDtl_3 p.hd {
+            font-size: 1.4em;
+            margin: 5px 0 0 0;
+        }
+
+        .fndDtl .rowDtl .colDtl_3 p.hd, .fndDtl .rowDtl .colDtl_2, .fndDtl .rowDtl .colDtl_3 {
+            width: 100%;
+        }
+
+    .rowDtl2 {
+        width: 100%;
+        float: left;
+    }
+
+    .fndDtl .rowDtl2 .colDtl_2 {
+        width: 70%;
+        margin: 0;
+    }
+
+    .fndDtl .rowDtl2 .colDtl_3 {
+        width: 30%;
+    }
+
+    .accordDivDetail .radioWrap label {
+        font-size: 1.4em;
+        margin: 10px 15px 0 0;
+    }
+
+    .detailView .pieChart {
+        margin-bottom: 15px;
+        display: none;
+    }
+
+    .detailView .pieChart, .detailView .pieChartDetl, .accordDivDetail .pieChartDetl .table {
+        width: 100%;
+    }
+
+    #pieChartWrap {
+        width: 180px;
+        height: 180px;
+        margin-left: -90px;
+    }
+
+        #pieChartWrap img {
+            width: 101%;
+        }
+
+    .accordDivDetail .detailView {
+        padding: 10px 0 0px 0;
+    }
+
+    .accordDivDetail .download, .accordDivDetail .download.tools {
+        width: 100%;
+        margin: 0;
+    }
+
+        .accordDivDetail .download ul li {
+            width: 100%;
+        }
+
+    .whyInvest ul.accord li ul.wayInvest {
+        margin: 5px 5px 5px -155px;
+    }
+
+        .whyInvest ul.accord li ul.wayInvest li {
+            width: 60px;
+        }
+
+            .whyInvest ul.accord li ul.wayInvest li a {
+                width: 60px;
+                height: 60px;
+            }
+
+                .whyInvest ul.accord li ul.wayInvest li a span {
+                    margin-top: 4px;
+                }
+
+    .portF .selectbg {
+        display: block;
+    }
+
+    .portF .radioWrap label {
+        display: none;
+    }
+
+    .contentContainer, .onlineKEyboard {
+        display: none;
+    }
+
+    .accontDetail .accordian .accordContent {
+        padding: 10px;
+    }
+
+    .accordContent .accordContentWrapper {
+        padding: 10px;
+    }
+
+    .row .contentLabel, .accordContentWrapper .contentValue {
+        width: 50%;
+        font-size: 1.4em;
+    }
+
+    .myAccWrapper .navTabs {
+        height: 40px;
+        overflow-y: hidden;
+    }
+
+        .myAccWrapper .navTabs ul li {
+            font-size: 1.5em;
+            width: auto;
+            padding: 20px 10px;
+        }
+
+        .myAccWrapper .navTabs#scroller {
+            width: 100%;
+            padding-bottom: 35px;
+        }
+
+    .accontDetail .accordian h2 {
+        padding: 15px 10px 15px 40px;
+    }
+
+    .accontDetail .accordian h2 {
+        background-position: 15px 17px;
+    }
+
+        .accontDetail .accordian h2.active {
+            background-position: 15px -42px;
+        }
+
+    .accontDetail .rowMail {
+        padding: 10px 0;
+        font-size: 1.4em;
+    }
+
+        .accontDetail .rowMail .checkbox {
+            padding: 0 10px 0 0;
+        }
+
+        .accontDetail .rowMail input[type="checkbox"] {
+            top: 10px;
+        }
+
+        .accontDetail .rowMail a {
+            width: 75%;
+        }
+
+    .myAccWrapper .infoContent {
+        width: 275px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    /************Invest Now *********/
+    .investWrap {
+        margin: 15px 0;
+    }
+
+    .investTabWrap .tabDetail span.toolTip {
+        display: none;
+    }
+
+    .investTabWrap .tabDetail .row {
+        padding: 10px 15px;
+        min-height: 65px;
+    }
+
+        .investTabWrap .tabDetail .row .detail {
+            width: 100%;
+        }
+
+            .investTabWrap .tabDetail .row .detail .selectbg, .investTabWrap .tabDetail .row .detail .selectbg select {
+                width: 100%;
+            }
+
+            .investTabWrap .tabDetail .row .detail .selectbg {
+                margin: 5px 0 0 0;
+            }
+
+            .investTabWrap .tabDetail .row .detail.units input {
+                width: 48%;
+                margin-right: 2%;
+                margin-bottom: 5px;
+            }
+
+            .investTabWrap .tabDetail .row .detail.units .selectbg {
+                width: 50%;
+                margin: 0;
+            }
+
+            .investTabWrap .tabDetail .row .detail .rowDiv .errorMsg, .investTabWrap .tabDetail .row .detail .rowDiv {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+                .investTabWrap .tabDetail .row .detail .rowDiv .errorMsg, .investTabWrap .tabDetail .row .detail .rowDiv .reIpin {
+                    margin: 0;
+                }
+
+            .investTabWrap .tabDetail .row .detail label.checkbx {
+                margin: 0;
+            }
+
+            .investTabWrap .tabDetail .row .detail input.smallWid {
+                width: 100%;
+            }
+
+            .investTabWrap .tabDetail .row .detail.units .selectedvalue {
+                width: 100%;
+            }
+
+            .investTabWrap .tabDetail .row .detail .selectedvalue {
+                width: 100%;
+                height: 40px;
+            }
+
+            .investTabWrap .tabDetail .row .detail .searchScheme {
+                width: 100%;
+            }
+
+                .investTabWrap .tabDetail .row .detail .searchScheme input {
+                    width: 80%;
+                    padding: 0 10px;
+                    font-size: 1.4em;
+                }
+
+            .investTabWrap .tabDetail .row .detail.distribute input, .investTabWrap .tabDetail .row .detail input, .investTabWrap .tabDetail .row .midCol, .investTabWrap .tabDetail .row label {
+                width: 100%;
+            }
+
+    .reinvest {
+        width: 100%;
+        margin: 0;
+    }
+
+    .termsWrap {
+        width: 100%;
+        height: 130px;
+    }
+
+    .investTabWrap .tabDetail .row .detail .colPay label:first-child {
+        width: 50%;
+    }
+
+    .investTabWrap .tabDetail .row .detail.payMode {
+        width: 100%;
+    }
+
+    .investTabWrap .tabDetail .row .detail .colPay label {
+        width: 50%;
+        margin: 5px 0;
+    }
+
+    .investTabWrap .tabDetail .knowMor a {
+        margin-left: 15px;
+    }
+
+    .stepConfirm {
+        padding: 10px 15px;
+    }
+
+        .stepConfirm h2, .stepConfirm h3 {
+            font-size: 1.8em;
+            padding-left: 0;
+        }
+
+        .stepConfirm p span {
+            font-size: 1.0em;
+        }
+
+    .investTabWrap ul.tab li a {
+        font-size: 1.4em;
+    }
+
+        .investTabWrap ul.tab li a span {
+            display: block;
+            min-height: 30px;
+        }
+
+            .investTabWrap ul.tab li a span.detailPlan {
+                font-size: 0.7em;
+            }
+
+    .knowMor.knowMor1 a {
+        width: 160px;
+    }
+
+    .investTabWrap .tabDetail .knowMor a.newLink {
+        font-size: 1.4em;
+    }
+
+    .investTabWrap .tabDetail .knowMor label {
+        margin: 17px 0 0 4px;
+        font-size: 1.4em;
+    }
+
+    .stepConfirm .doneIcon {
+        right: 10px;
+        top: 5px;
+        width: 35px;
+    }
+
+    .investTabWrap .tabDetail .row label {
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+
+    .investTabWrap .tabDetail .row .detail label.selectVal {
+        margin: 0;
+    }
+
+    .investTabWrap ul.tab {
+        width: auto;
+        float: right;
+        height: auto;
+        border: none;
+        margin: 10px 0;
+    }
+
+    .investTabWrap .mobTitle br {
+        display: none;
+    }
+
+    .investTabWrap ul.tab li {
+        width: 40px !important;
+        height: 40px;
+        border-radius: 100%;
+        overflow: hidden;
+        background: #B8C9DC;
+        margin: 0 5px;
+        padding: 0;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 100%;
+    }
+
+        .investTabWrap ul.tab li a {
+            height: 100%;
+            width: auto;
+            padding: 0;
+            display: block;
+            text-align: center;
+        }
+
+            .investTabWrap ul.tab li a span {
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                float: none;
+                margin: 0;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+        .investTabWrap ul.tab li span.arrow {
+            display: none;
+        }
+
+        .investTabWrap ul.tab li.active span.arrow {
+            display: none;
+        }
+
+        .investTabWrap ul.tab li.activate span.arrow {
+            display: none;
+        }
+
+        .investTabWrap ul.tab li.activate a span.detailPlan {
+            display: none;
+        }
+
+    .investTabWrap .mobTitle {
+        display: block;
+    }
+
+    .investStart .stepBox {
+        width: 100%;
+        margin: 80px 15px 0 0;
+    }
+
+        .investStart .stepBox.marLft {
+            margin-left: 0;
+        }
+
+    .investStart {
+        padding: 0 10px;
+    }
+
+        .investStart p {
+            font-size: 2em;
+        }
+
+    .headTitle {
+        padding: 15px;
+    }
+
+    .investTabWrap .tabDetail .row .errorMsg, .investTabWrap .tabDetail .row .reIpin {
+        font-size: 1.3em;
+    }
+
+    p.topHd {
+        padding: 7px 15px;
+        font-size: 1.4em;
+    }
+
+    .lightBox {
+        width: 100%;
+        left: 0;
+        margin: 0;
+        top: 10%;
+    }
+
+    .investTabWrap .tabDetail .row .detail label.selectVal {
+        font-size: 1.6em;
+    }
+
+    .investTabWrap .tabDetail .row .detail p {
+        margin: 0;
+    }
+
+    .investStart.atmBox .stepBox span {
+        margin-top: 0;
+    }
+
+    .investTabWrap .tabDetail .row .detail a.midCont {
+        margin: 0px 0 5px 10px;
+    }
+
+    .investTabWrap .tabDetail .detail.distribute .termsWrap.instruction {
+        height: 285px;
+    }
+
+    .investTabWrap .tabDetail .row .detail input.countryCode {
+        width: 60px;
+    }
+
+    .detailStep {
+        width: 100%;
+        padding: 5px 10px 10px 10px;
+    }
+
+    .stepConfirm .detailStep p {
+        padding: 5px 0 0 0;
+    }
+
+    .centrAlign {
+        left: 0;
+        margin: 0;
+    }
+
+    .investStart .stepBox span {
+        top: -56%;
+    }
+
+
+    /************Invest Now *********/
+    .investBtn a {
+        left: 83%;
+    }
+
+    .infoContent .valueDetails {
+        padding: 0 36px;
+    }
+
+    .investBtn {
+        width: 178px;
+        float: none;
+        margin: 0 auto;
+    }
+
+        .investBtn a {
+            left: inherit;
+        }
+
+    .reinvest .minInvest .purchaseBox {
+        margin: 0;
+    }
+
+        .reinvest .minInvest .purchaseBox label {
+            padding: 0;
+        }
+
+    .hdMob {
+        width: 100%;
+        float: left;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+    }
+
+    .investTabWrap .tabDetail .knowMor a.newLinkGo {
+        margin-left: 15px;
+    }
+
+    .investTabWrap .tabDetail .row .detail .dateDiv {
+        width: 50%;
+    }
+
+    .investTabWrap .tabDetail .row .detail label {
+        width: 100%;
+        margin: 10px 35px 10px 0;
+    }
+
+    .investTabWrap .tabDetail .row label.radioWidth {
+        width: auto;
+    }
+
+    .detail .dateRange {
+        margin-top: 0;
+    }
+
+    .contentWrap .block {
+        width: 100%;
+        min-height: 10px;
+        border-left: none;
+        border-top: 1px dotted #666;
+        padding: 25px 0;
+    }
+
+        .contentWrap .block span.or {
+            left: 50%;
+            margin-left: -15px;
+            top: -15px;
+        }
+
+        .contentWrap .block.firstBlk {
+            padding-top: 0;
+            border: none;
+        }
+
+    .contentWrap p {
+        font-size: 1.4em;
+    }
+
+    .contentWrap h3 {
+        font-size: 1.8em;
+        padding-top: 15px;
+    }
+
+        .contentWrap h3 span {
+            width: 35px;
+            height: 35px;
+            top: -5px;
+            font-size: 1.6em;
+        }
+
+    .contentWrap .processDetail a.tell {
+        margin-right: 30px;
+    }
+
+    .investTabWrap.contentWrap .tabDetail .row {
+        padding: 10px 0 0 0;
+    }
+
+    .proceedWrap .stepConfirm input.txtBx {
+        margin: 0 0 0 10px;
+    }
+
+    .proceedWrap .stepConfirm {
+        padding: 15px;
+    }
+
+    .wrapBox .searchScheme, .wrapBox .selectedvalue, .wrapBox .selectbg, .wrapBox select {
+        width: 100%;
+        float: left;
+    }
+
+    .wrapBox .selectedvalue {
+        height: 40px;
+    }
+
+    .wrapBox .searchScheme input[type=text] {
+        width: 75%;
+    }
+
+    .headTitle.star {
+        font-size: 1.6em;
+    }
+
+    .contentWrap .accordian h2 {
+        font-size: 1.3em;
+    }
+
+    .accordian h2 {
+        font-size: 1.4em;
+        padding: 15px 10px 15px 40px;
+        background-position: 15px 15px;
+    }
+
+        .accordian h2.active {
+            background-position: 15px 15px;
+        }
+
+    .wrapBox .searchScheme a {
+        float: right;
+    }
+
+
+    /*==================Login========================*/
+    .loginSection {
+        position: relative;
+    }
+
+    .loginMob {
+        display: block;
+    }
+
+    .loginClick {
+        display: none;
+    }
+
+    .loginWrapper, .loginWrapper .registerWrapper {
+        width: 100%;
+        position: relative;
+    }
+
+        .loginWrapper .loginContent, .loginWrapper .registerWrapper .registerContent {
+            width: 100%;
+        }
+
+    .regisContent .contentWrapper, .regisContent .contentWrapper .regContent {
+        width: 100%;
+    }
+
+        .regisContent .contentWrapper h1 {
+            padding: 0 0px 0 20px;
+        }
+
+        .regisContent .contentWrapper .regContent .regBand ul li {
+            margin: 0 0 15px 0;
+            clear: both;
+        }
+
+    .creatPass .passStrength {
+        margin: 0px;
+        clear: both;
+    }
+
+    .logedinInfo {
+        background: #D8DEE5;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #B3BCC6;
+    }
+
+        .logedinInfo p {
+            padding: 0 0 10px 0;
+            color: #333;
+        }
+
+        .logedinInfo h2 {
+            color: #034da2;
+            padding: 10px 0 0px 0;
+        }
+
+    .loginWrapper .loginReg {
+        width: 100%;
+    }
+
+    .virtual {
+        display: none;
+    }
+
+    .loginContent .rightContent {
+        padding: 20px 0 0 0;
+    }
+
+    .loginContent .googleConnect span.link {
+        margin: 0 0 0 5px;
+    }
+
+    .loginContent .googleConnect span.text {
+        margin: 0 6px 0 0;
+    }
+
+    .loginContent .leftContent {
+        border-right: none;
+        padding: 0 0 20px;
+        border-bottom: 1px solid #d5d8dd;
+    }
+
+    .loginContent .rightContent .loginReg {
+        width: 100%;
+    }
+
+    .loginContent .feildWrapper .inputWrapper {
+        width: 100%;
+    }
+
+    /*==================End ofLogin========================*/
+    .logedinMob {
+        display: block;
+    }
+
+    .logedinmibContent {
+        background: #1c4f89;
+        float: left;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    ul.fixWrapper .logedinmibContent a {
+        color: #fff;
+        background: #F92F2F;
+        padding: 10px !important;
+        width: 100px;
+        border-bottom: 0;
+        display: block;
+        float: none;
+        margin: 10px auto 0;
+    }
+
+        ul.fixWrapper .logedinmibContent a:hover {
+            color: #fff;
+            background: #F92F2F;
+        }
+
+    ul.fixWrapper .logedinmibContent span {
+        display: block;
+        color: #fff;
+        position: relative;
+        margin: 0;
+        background: none;
+    }
+
+    ul.fixWrapper .logedinmibContent {
+        text-align: center;
+    }
+
+    .logedinmibContent h2 {
+        font-size: 1.6em;
+        color: #fff;
+    }
+
+    .logedinmibContent p {
+        font-size: 1.2em;
+        color: #fff;
+    }
+
+    /*==================Why RMF========================*/
+
+    .activeContent h2 {
+        font-size: 2.8em;
+    }
+
+    .activeContent p {
+        font-size: 1.4em;
+    }
+
+    .activeContent .activeContentWrapper2 {
+        width: 100%;
+        float: left;
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+
+    /* .activeContent .closeActiveBtn {
+        left: 10px;
+        right: 0px;
+    }*/ /*** Indigo changes - 27-8-2014 ***/
+
+    .storiesContainer .header p {
+        font-size: 2em;
+    }
+
+        .storiesContainer .header p span {
+            display: none;
+        }
+    /*==================End of Why RMF========================*/
+
+    /*********************** Track Fund ******************/
+    .contentWrap {
+        padding: 15px;
+    }
+
+    .dividentFrm {
+        padding: 0 0 15px;
+    }
+
+    .compareWrap, .waysTransact {
+        padding: 0;
+    }
+
+    .tarckWrap ul, .trackSearch .box {
+        width: 100%;
+        float: left;
+    }
+
+        .tarckWrap ul li.fundDate, .tarckWrap ul li.fundname, .tarckWrap ul li.download {
+            width: 100%;
+            padding: 0;
+            height: auto;
+        }
+
+        .tarckWrap ul li.fundDate {
+            border: none;
+            margin: 10px 0;
+        }
+
+        .tarckWrap ul li.fundname h2 {
+            font-size: 2em;
+        }
+
+    .valueBox {
+        padding: 0;
+    }
+
+        .valueBox span.val {
+            font-size: 1.8em;
+        }
+
+    .tarckWrap p {
+        font-size: 1.3em;
+    }
+
+    .tarckWrap ul li.download p {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .boxInvst {
+        width: 100%;
+        margin: 5px 0 0 0;
+    }
+
+        .boxInvst .or {
+            top: auto;
+            bottom: -16px;
+            right: 50%;
+        }
+    /*********************** Track Fund ******************/
+
+    /************** Start of NFo *************/
+    .nfoContentWrap {
+        width: 100%;
+    }
+
+        .nfoContentWrap .schemeType {
+            float: left;
+            margin: 0 0 20px 0;
+            clear: both;
+        }
+
+    .schemeType label.live {
+        margin: 0 12px 0 0;
+    }
+
+    .tableWrapper {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+        /************** End of NFo *************/
+
+        /************** Start of NAV *************/
+        .tableWrapper .table tr td:first-child {
+            float: none;
+        }
+    /************** End of NAV *************/
+
+
+    /************** Fund Summary ********/
+    .fundSummary {
+        padding: 15px 0;
+    }
+
+    .fundviewBox #scroll {
+        overflow: auto;
+    }
+
+    .tabLinks li {
+        padding: 8px 4px;
+    }
+
+    .summarySearch .headWrap {
+        height: 100%;
+    }
+
+    .summaryResults .topband p {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .equitySerach .box {
+        width: 100%;
+    }
+
+    .summarySearch h2 {
+        padding: 11px 0;
+        width: 100%;
+    }
+
+    ul.tabLinks {
+        width: 100%;
+        float: left;
+    }
+
+    .tabContent .clearfilter {
+        font-size: 1.2em;
+    }
+
+    ul.legents {
+        margin: 10px 0;
+    }
+
+    .tabLinks li a {
+        font-size: 1.3em;
+        background-position: 96% -3px;
+    }
+
+    .tabLinks li.sel a {
+        background-position: 96% -3px;
+    }
+
+    .filters .selectbg {
+        clear: both;
+    }
+
+    .filters ul {
+        width: 100%;
+    }
+
+    .filters .fHeaders {
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .filters ul li {
+        padding: 0;
+    }
+
+        .filters ul li label {
+            font-size: 1.3em;
+            padding: 8px 10px;
+            float: left;
+        }
+
+    .gridBox {
+        width: 50%;
+        padding: 0 8px 15px 8px;
+    }
+
+    .equityTable tr th, .equityTable tr td {
+        font-size: 1.5em;
+    }
+    /************** Fund Summary ********/
+    /************** Start Locate Us********/
+    ul.sendTab li.mapIcon {
+        display: block;
+    }
+
+    .mapRowWrap .mobileMapIcon, .closeMap {
+        display: block;
+    }
+
+    .detailLocate .row .lhs, .detailLocate .row .rhs {
+        width: 100%;
+    }
+
+    ul.sendTab {
+        margin: 15px 0 0 0;
+    }
+
+    .rowMap {
+        display: none;
+    }
+
+    .mobileSection {
+        position: relative;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .mapRowWrap, .rowMap {
+        width: 100%;
+        height: 350px;
+    }
+
+    .mobileMapIcon {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        cursor: pointer;
+        background: url(/SiteCollectionImages/SiteImages/navSprite.png) no-repeat -179px -266px;
+        width: 15px;
+        height: 30px;
+        text-indent: -99px;
+        overflow: hidden;
+    }
+
+    .mapRowWrap {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .rowMap {
+        position: absolute;
+        left: 100%;
+    }
+
+    .detailLocate .mapRowWrap .row {
+        padding: 15px 8px;
+        overflow: hidden;
+    }
+
+    .closeMap {
+        background: url(/SiteCollectionImages/SiteImages/sprit-fundview.png) no-repeat -119px 0;
+        color: red;
+        cursor: pointer;
+        font-size: 24px;
+        height: 35px;
+        overflow: hidden;
+        position: absolute;
+        right: 5px;
+        text-indent: -107px;
+        top: 8px;
+        width: 35px;
+    }
+
+    .sendTabDetail input[type="text"], .locateSelect input[type="text"] {
+        margin: 5px 0;
+    }
+
+    .sendTabDetail .knowMor a, .locateSelect .knowMor a {
+        margin: 5px 0 0 5px;
+    }
+
+    .headLocate h4 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .headLocate label {
+        margin: 5px 15px 0 0;
+        font-size: 1.4em;
+    }
+
+    ul.legents li {
+        width: 100%;
+        border: none;
+        margin: 0 0 10px 0;
+    }
+    /************** End Locate Us********/
+    .investTabWrap .tabDetail .hiddenDropDown .knowMor a {
+        margin: 8px 0 0 10px;
+    }
+
+    .detailLocate .row .lhs a {
+        margin: 10px 10px 0 0;
+    }
+    /*********** Start Wasys to Transact ******/
+    .waysTransact .accordian h2 {
+        height: 60px;
+        padding: 15px 65px 0px 30px;
+        background-position: 8px 18px;
+        font-size: 1.8em;
+        background-position: 8px 24px;
+        margin: 10px 0 0 !important;
+    }
+
+        .waysTransact .accordian h2 span {
+            height: 60px;
+            width: 60px;
+            background-size: 345px auto;
+        }
+
+            .waysTransact .accordian h2 span.website {
+                background-position: -8px -249px;
+            }
+
+            .waysTransact .accordian h2 span.mobileApp {
+                background-position: -93px -249px;
+            }
+
+            .waysTransact .accordian h2 span.SMS {
+                background-position: -165px -247px;
+            }
+
+            .waysTransact .accordian h2 span.callCenter {
+                background-position: -231px -250px;
+            }
+
+            .waysTransact .accordian h2 span.stockExchange {
+                background-position: -292px -250px;
+            }
+
+            .waysTransact .accordian h2 span.ratm {
+                background-position: 0 -314px;
+            }
+
+            .waysTransact .accordian h2 span.appForm {
+                background-position: -87px -316px;
+            }
+
+    .waysTransact .accordian .accordContent {
+        padding: 0 60px 0 0;
+    }
+
+    .waysTransact p {
+        margin: 0 0 5px 0;
+        line-height: 1.2em;
+    }
+
+    /*********** End Wasys to Transact ******/
+    /*********** Start download forms ******/
+    .accordian h2 {
+        height: auto;
+        padding: 15px 10px 12px 40px;
+    }
+
+    .commonAccord h2.active, .commonAccord h2 {
+        background-position: 15px 16px;
+    }
+
+    .accordContent .rhsCont, .accordContent .lhsCont {
+        width: 100%;
+        padding: 0;
+    }
+
+    .accordContent .lhsCont {
+        padding: 10px 0 0 0;
+    }
+
+    .accordContent .chkWrap {
+        margin: 10px 0;
+    }
+
+    .accordContent .rhsCont label {
+        margin: 0 15px 0 0;
+    }
+
+    .accordContent .selectWrap {
+        margin: 0 0 10px 0;
+    }
+
+    ul.pdf li label.rhsLbl a {
+        float: right;
+        margin: 0;
+        clear: both;
+    }
+
+        ul.pdf li label.rhsLbl a:first-child {
+            margin: 0 0 5px 0;
+        }
+    /*********** Start download forms ******/
+
+    /************ Start About RMF ************/
+    .rhsWrapper.aboutWrap h2 {
+        font-size: 1.8em;
+        margin: 10px 0 10px 0;
+    }
+
+    .rhsWrapper p {
+        font-size: 1.4em;
+        line-height: 1.2em;
+        margin: 5px 0;
+    }
+
+        .rhsWrapper p.hd {
+            font-size: 1.5em;
+        }
+
+    ul.roundValue {
+        margin: 10px 0 0 0;
+    }
+
+    .blueWrap .blueRow .blueDetail {
+        line-height: 1.2em;
+        padding: 7px 10px;
+    }
+
+    /************ End About RMF ************/
+    ul.pdf.dividends li label.dateLbl, ul.pdf.dividends li label.lhsLbl, ul.pdf.dividends li label.rhsLbl {
+        width: 100%;
+        margin: 5px 0 0 0;
+    }
+
+    .investTabWrap.dividentFrm .tabDetail .row {
+        padding: 0 0 10px 0;
+    }
+
+    .fundMnger .commonAccord h2 span {
+        font-size: 0.8em;
+    }
+
+    .fundMnger .commonAccord h2 {
+        background-position: 15px 14px;
+        padding: 10px 10px 8px 40px;
+    }
+
+    .fundMnger .managerImg {
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .fundMnger .accordContent .rhsCont, .fundMnger .accordContent .lhsCont {
+        width: 100%;
+    }
+
+    .fundMngerView .accordian h2.active {
+        background-position: 15px 16px;
+    }
+
+    .accordContent h4, .rhsWrapper h3 {
+        font-size: 1.5em;
+    }
+
+    ul.viewLink li {
+        width: 33%;
+    }
+
+        ul.viewLink li a {
+            padding: 15px 0 0 45px;
+            font-size: 1.4em;
+        }
+
+        ul.viewLink li.active {
+            background-position: 93% 14px;
+            background-size: 15px auto;
+        }
+
+        ul.viewLink li a span:before {
+            left: 13px;
+        }
+
+        ul.viewLink li a.gold span:before {
+            left: 5px;
+        }
+
+    /* learn and invest style starts */
+    .whenInvest, .videoTutorial, .ToolBox ul.ToolBox1, .ToolBox ul.ToolBox2, .ToolBox3 {
+        width: 100%;
+        margin: 0;
+    }
+
+        .whenInvest ul li {
+            width: 100%;
+        }
+
+    .blueInvest {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+        .blueInvest ul li {
+            width: 48%;
+            margin: 0 8px 2px 0;
+            height: 70px;
+        }
+
+            .blueInvest ul li a {
+                width: 100%;
+                height: 65px;
+                text-align: left;
+                padding-top: 20px;
+            }
+
+    .ToolBox ul.ToolBox2, .ToolBox3 {
+        margin-top: 10px;
+    }
+
+    .blueInvest ul li a br {
+        display: none;
+    }
+
+    .toolBtnLt {
+        width: 80%;
+    }
+
+    .ToolBox {
+        padding: 10px 0 0 0;
+    }
+
+    .blueInvest ul li span {
+        position: relative;
+        top: -15px;
+    }
+
+    .learnInvest h2 {
+        font-size: 2em;
+        margin: 15px 0 5px 0;
+    }
+    /* learn and invest style starts */
+    .pressRelease {
+        padding: 15px;
+    }
+
+        .pressRelease .rhsWrapper h3 {
+            font-size: 1.8em;
+        }
+
+    .searchRelease .detail .dateDiv {
+        width: 50%;
+        margin: 0 0 10px 0;
+    }
+
+    .searchRelease .detail input[type="text"] {
+        width: 80px;
+        padding: 10px;
+    }
+    /**********  have us call you ***********/
+    ul.footerList li.colSec div.haveusDetail {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .chatus ul.footerList li.colSec div.haveusDetail {
+        position: absolute;
+    }
+
+    .chatus .chatusBox span.arrow {
+        background-position: 0 -25px;
+        left: auto;
+        right: 115px;
+        width: 21px;
+        top: -10px;
+    }
+
+    .haveusDetail span.arrow {
+        top: -11px;
+        left: 15px;
+        width: 22px;
+        background-position: 0 -26px;
+    }
+    /**********  have us call you ***********/
+
+    /** Footer Expand Collapse **/
+    article.midWrap, .container {
+        float: left;
+    }
+
+    ul.footerList {
+        margin: 0 0 5px 0;
+    }
+
+    .footer {
+        line-height: normal;
+    }
+
+    footer {
+        padding: 20px 0 15px 0;
+    }
+
+    .mobileView > li {
+        margin: 3px auto 0 auto !important;
+        border-top: 1px solid #c3d9ea;
+        padding: 10px 0 5px 0;
+    }
+
+        .mobileView > li:first-child {
+            border: none;
+        }
+
+        .mobileView > li > * {
+            display: none;
+        }
+
+        .mobileView > li .lineHead {
+            display: block;
+            background: none;
+            text-align: left;
+            background: url(/SiteCollectionImages/SiteImages/mobAccord.png) no-repeat 98% -33px;
+        }
+
+            .mobileView > li .lineHead span {
+                padding: 0;
+            }
+
+        .mobileView > li.selected .lineHead {
+            background-position: 98% 8px;
+        }
+
+        .mobileView > li.selected .ftRght {
+            margin: 9px 0 0 0 !important;
+        }
+
+            .mobileView > li.selected .ftRght li {
+                padding-left: 0;
+                margin-bottom: 7px;
+            }
+
+    ul.footerList > li:nth-child(1) {
+        min-height: 0;
+    }
+
+    ul.footerList > li:nth-child(2) {
+        min-height: 0;
+    }
+
+    .mobileView > li .subscribe, ul.footerList li.colSec ul.commonLink.reachUs {
+        margin: 15px 0 0 0;
+        float: left;
+    }
+
+    .subscribe a {
+        padding-top: 12px;
+    }
+    /** Footer Expand Collapse Ends **/
+
+    .fundMnger .commonAccord h2 label {
+        font-size: 0.8em;
+    }
+
+    .fundMnger .searchRelease select, .fundMnger .searchRelease .selectbg, .fundMnger .searchRelease .selectedvalue {
+        width: 100%;
+    }
+
+    .fundMnger .searchRelease .selectbg {
+        margin: 0 0 10px 0;
+    }
+
+    .searchRelease .wrapBox .searchScheme {
+        width: 100%;
+    }
+
+        .searchRelease .wrapBox .searchScheme input[type="text"] {
+            width: 85%;
+        }
+
+
+    ul.invstBox > li {
+        width: 50%;
+        height: 260px;
+    }
+
+        ul.invstBox > li .boxInvest .circleBox {
+            height: 150px;
+        }
+
+            ul.invstBox > li .boxInvest .circleBox img {
+                width: 125px;
+            }
+
+    .boxContent ul li a {
+        font-size: 1.2em;
+    }
+
+    /*Button Styles*/
+    a.buttonStyle {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    /*End of Button Styles*/
+
+    /*************************videotuts**********************/
+
+    .videoTabs li {
+        width: 100%;
+        border: none;
+    }
+
+    .selectedTab {
+        float: left;
+        width: 100%;
+        display: block;
+        color: #fff;
+        float: left;
+        font-family: 'robotolight',Arial,Helvetica,sans-serif;
+        font-size: 1.5em;
+        line-height: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .videoWrapper .commonTabs {
+        display: none;
+    }
+
+    .selectedTab.beigner {
+        background: #E06C5F;
+    }
+
+    .selectedTab.intermediate {
+        background: #E2C589;
+    }
+
+    .selectedTab.advance {
+        background: #89CFC5;
+    }
+
+    .selectedTab .textContainer {
+        padding: 10px;
+    }
+
+    .selectedTab span {
+        display: block;
+        float: left;
+        width: 21px;
+        height: 11px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        background: url(../images/vidoeDownarrow.png) no-repeat;
+    }
+
+    .videoThumb {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+        .videoThumb img {
+            width: auto;
+        }
+
+    p.videoText {
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+    /*************************end of videotuts**********************/
+
+
+    .bigGrid .gridWrapper .textContent p {
+        font-size: 1.3em;
+    }
+
+    .storiesContainer .smallGrid.expertise .activeContent p, .storiesContainer .smallGrid.foundation .activeContent p {
+        font-size: 1.4em;
+    }
+
+    .activeContent ul li p {
+        font-size: 1.3em;
+    }
+
+    .imgStyle {
+        width: 100%;
+    }
+
+    .toggleIcon {
+        display: none;
+    }
+
+    /****/
+    .schemeSelect {
+        width: 100%;
+    }
+
+        .schemeSelect .redBtn {
+            margin: 0;
+            width: 20%;
+        }
+
+    .headWrp .leftContent {
+        width: 100%;
+    }
+
+    /****** Goal Planner And Risk Analyzer Start**********/
+    .goalWrapper {
+        padding: 10px;
+    }
+
+        .goalWrapper .goalWrap {
+            padding: 10px 5px;
+        }
+
+            .goalWrapper .goalWrap ul.goals {
+                width: 100%;
+            }
+
+    .goalForm {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    ul.goals li {
+        width: 50%;
+        padding: 5px;
+    }
+
+        ul.goals li:nth-child(2n-1) {
+            clear: both;
+        }
+    /***31-10-2014 - Indigo - Added***/
+    .goalWrap .goalTab {
+        padding: 10px;
+        min-height: 0;
+    }
+        /***31-10-2014 - Indigo - Added***/
+        .goalWrap .goalTab h2 {
+            font-size: 1.4em;
+        }
+        /***31-10-2014 - Indigo - Added***/
+        .goalWrap .goalTab .imgSrc {
+            margin: 20px 0;
+            min-height: 0;
+        }
+            /***31-10-2014 - Indigo - Added***/
+            .goalWrap .goalTab .imgSrc img {
+                width: 100px;
+            }
+        /***31-10-2014 - Indigo - Added***/
+        .goalWrap .goalTab p {
+            font-size: 1.2em;
+        }
+    /***31-10-2014 - Indigo - Added***/
+    .goalWrap1 .knowMor a {
+        width: 100px;
+        margin-left: -50px;
+    }
+    /***31-10-2014 - Indigo - Added***/
+    .calcLightbox {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+    /***31-10-2014 - Indigo - Added***/
+
+    .goalWrapper .selectedGoalDetail .goalWrap, .riskCompare .goalWrap {
+        padding: 10px;
+    }
+
+    .goalWrapper .knowMor a.cancelLink {
+        margin: 25px 0 0 10px;
+    }
+
+    ul.goals li h3, .goalBlock h3 {
+        font-size: 1.5em;
+    }
+
+    .goalBlock {
+        width: 100%;
+        height: auto;
+    }
+
+    .resultBlock span.done {
+        width: 30px;
+        height: 30px;
+        right: 0;
+        background-size: 30px auto;
+    }
+
+    .resultBlock {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+        .resultBlock h2 {
+            padding: 25px 0 0 0;
+        }
+
+    .schemesWrap .schemeRow .schemeName, .riskWrapper .schemeRow label {
+        width: 100%;
+    }
+
+    .schemesWrap .schemeRow .linking {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .riskWrapper {
+        padding: 0;
+    }
+
+        .riskWrapper .goalWrap ul.goals li {
+            width: 50%;
+            margin: 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+            .riskWrapper .goalWrap ul.goals li:first-child {
+                border-bottom: 1px solid #ccc;
+            }
+
+            .riskWrapper .goalWrap ul.goals li:nth-child(3) {
+                border: none;
+            }
+
+            .riskWrapper .goalWrap ul.goals li:nth-child(4) {
+                border-bottom: none;
+            }
+
+        .riskWrapper ul.goals li .goalPlan {
+            min-height: 150px;
+        }
+
+        .riskWrapper ul.goals li.selectedGoal .goalPlan span {
+            bottom: 3px;
+        }
+
+        .riskWrapper .goalBlock {
+            width: 100%;
+            text-align: center;
+        }
+
+    .riskEvaluate .rowDiv label {
+        width: 100%;
+    }
+
+    .riskWrapper label.terms, .riskWrapper label.allocation {
+        width: 50%;
+        padding: 0;
+    }
+
+    .riskEvaluate .rowDiv {
+        padding: 10px 0px;
+    }
+
+        .riskEvaluate .rowDiv .queSeq {
+            width: 10%;
+        }
+
+        .riskEvaluate .rowDiv .queSet {
+            width: 90%;
+        }
+
+        .riskEvaluate .rowDiv h2 {
+            font-size: 1.6em;
+        }
+
+        .riskEvaluate .rowDiv .queSeq span {
+            width: 25px;
+            height: 25px;
+            font-size: 1.4em;
+            padding-top: 2px;
+        }
+
+    .riskWrapper ul.goals li .goalPlan .imgSrc img {
+        width: 100px;
+    }
+
+    .riskWrapper ul.goals li .goalPlan .imgSrc {
+        height: 75px;
+    }
+
+    /****** Goal Planner And Risk Analyzer End**********/
+    ul.commonLink.socialMedia li label {
+        left: 5px;
+    }
+        /*** Indigo-Added-22-10-2014 ***/
+        ul.commonLink.socialMedia li label:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border: 5px transparent solid;
+            border-left-width: 0;
+            border-right-color: #8ca1b2;
+            left: -5px;
+            top: 11px;
+            margin-left: 0;
+        }
+    /*** Indigo-Added-22-10-2014 ***/
+    .headWrp .leftContent {
+        width: 100%;
+    }
+    /*** Indigo-Added-22-10-2014 ***/
+}
+
+@media only screen and (min-width : 640px) and (max-width : 720px) {
+    .oldsitelink {
+        padding-bottom: 7px;
+    }
+
+    .whyInvest {
+        width: 47%;
+        margin-right: 3%;
+    }
+
+        .whyInvest.howInvset {
+            width: 50%;
+            margin: 0;
+        }
+
+        .whyInvest ul.accord li ul.wayInvest {
+            margin: 5px 5px 5px -150px;
+        }
+
+            .whyInvest ul.accord li ul.wayInvest li {
+                width: 55px;
+            }
+
+    .multiInvest {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .boxInvst {
+        width: 49%;
+    }
+
+        .boxInvst .or {
+            bottom: auto;
+            top: 50%;
+            right: -20px;
+        }
+    /*==================Login========================*/
+    .loginSection {
+        position: relative;
+    }
+
+    .loginMob {
+        display: block;
+    }
+
+    .loginClick {
+        display: none;
+    }
+
+    .loginWrapper, .loginWrapper .registerWrapper {
+        width: 100%;
+        position: relative;
+    }
+
+        .loginWrapper .loginContent, .loginWrapper .registerWrapper .registerContent {
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .regisContent .contentWrapper, .regisContent .contentWrapper .regContent {
+        width: 100%;
+    }
+
+        .regisContent .contentWrapper h1 {
+            padding: 0 0px 0 20px;
+        }
+
+        .regisContent .contentWrapper .regContent .regBand ul li {
+            margin: 0 0 15px 0;
+            clear: both;
+        }
+
+    .logedinInfo {
+        background: #D8DEE5;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #B3BCC6;
+    }
+
+        .logedinInfo p {
+            padding: 0 0 10px 0;
+            color: #333;
+        }
+
+        .logedinInfo h2 {
+            color: #034da2;
+            padding: 10px 0 0px 0;
+        }
+    /*==================End ofLogin========================*/
+    .locateSelect input[type="text"] {
+        margin: 0 0 0 10px;
+    }
+
+    .locateSelect .knowMor a {
+        margin: 5px 0 0 0;
+    }
+
+    .sendTabDetail .knowMor a {
+        margin: 5px 0 0px 5px;
+    }
+
+    .haveusDetail {
+        left: 150px;
+    }
+
+    .fundMnger .accordContent .rhsCont {
+        width: 30%;
+        padding: 0;
+    }
+
+    .fundMnger .accordContent .lhsCont {
+        width: 60%;
+    }
+
+    .fundMnger .managerImg {
+        left: 0;
+        margin: 0;
+    }
+
+    ul.viewLink li {
+        width: 160px;
+    }
+
+        ul.viewLink li a {
+            padding: 15px 0 0 65px;
+            font-size: 1.4em;
+        }
+
+        ul.viewLink li.active {
+            background-position: 85% 14px;
+        }
+
+        ul.viewLink li a span:before {
+            left: 30px;
+        }
+
+        ul.viewLink li a.gold span:before {
+            left: 21px;
+        }
+
+    /* learn and invest style starts */
+    .blueInvest {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .whenInvest ul li {
+        width: 49%;
+        margin-left: 2%;
+    }
+
+        .whenInvest ul li:first-child {
+            margin: 0;
+        }
+    /* learn and invest style starts */
+
+    ul.footerList > li:nth-child(1) ul.subList {
+        width: 50%;
+    }
+
+    ul.footerList > li:nth-child(2) ul.subList {
+        width: 50%;
+    }
+
+    .fundMnger .searchRelease .selectbg {
+        width: 220px;
+        margin-right: 10px;
+    }
+
+    .SubscribeForLatestDivReqField {
+        padding-left: 20px;
+        border: none;
+        float: left;
+        position: relative;
+    }
+}
+/**** indigo added  start-- */
+@media only screen and (max-width : 480px) {
+    .divriskCategories {
+        width: 100%;
+        top: 143px;
+    }
+
+    .oldsitelink {
+        padding-bottom: 7px;
+        margin-top: -5px;
+        font-size: 1.1em !important;
+    }
+
+    .SubscribeForLatestDivReqField {
+        padding-left: 20px;
+        border: none;
+        float: left;
+        position: relative;
+    }
+
+    .imgHand_andr {
+        transform: scale(0.8);
+    }
+}
+/**** indigo added -- */
+@media only screen and (min-width : 320px) and (max-width : 400px) {
+    .oldsitelink {
+        padding-bottom: 7px;
+        margin-top: -5px;
+        font-size: 1.1em !important;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .bannerWrap img.couple {
+        width: 230px;
+        top: 140px;
+    }
+
+    .bannerWrap img.rhsImg {
+        width: 180px;
+        top: 80px;
+        left: auto;
+        right: 0;
+    }
+
+    .quickBox ul li {
+        width: 46%;
+    }
+
+    #footerBtm {
+        margin-top: 15px;
+    }
+
+    ul.footerList li.colSec ul.commonLink.socialMedia {
+        width: 85%;
+        float: none;
+        margin: 15px auto;
+    }
+
+    ul.commonLink.socialMedia li label {
+        height: 24px;
+        margin-top: 0;
+        padding-top: 11px;
+        top: 5px;
+    }
+
+        ul.commonLink.socialMedia li label:before {
+            content: '';
+            height: 0;
+            width: 0;
+            display: block;
+            border: 4px transparent solid;
+            border-top-width: 0;
+            border-bottom-color: #8ca1b2;
+            position: absolute;
+            top: -4px;
+            left: 50%;
+            margin-left: -2px;
+        }
+
+    ul.commonLink.reachUs li label {
+        width: 95%;
+    }
+
+    ul.footerList li.colSec ul.commonLink.reachUs {
+        width: 100%;
+    }
+    /*ul.nav li ul li ul.subMenuMain {left:80%;}*/
+    ul.nav li ul li ul.subMenuMain li a {
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        min-height: inherit;
+    }
+
+    .whyInvest ul.accord li ul.wayInvest {
+        margin: 5px 5px 5px -140px;
+    }
+
+        .whyInvest ul.accord li ul.wayInvest li {
+            width: 53px;
+        }
+
+            .whyInvest ul.accord li ul.wayInvest li a {
+                width: 53px;
+                height: 53px;
+            }
+
+                .whyInvest ul.accord li ul.wayInvest li a span {
+                    margin-top: 4px;
+                    background-size: 400px 440px;
+                    height: 28px;
+                }
+
+                .whyInvest ul.accord li ul.wayInvest li a.sms span {
+                    background-position: -2px -203px;
+                }
+
+                .whyInvest ul.accord li ul.wayInvest li a.phone span {
+                    background-position: -60px -207px;
+                }
+
+                .whyInvest ul.accord li ul.wayInvest li a.wap span {
+                    background-position: -112px -207px;
+                }
+
+                .whyInvest ul.accord li ul.wayInvest li a.form span {
+                    background-position: -160px -206px;
+                }
+
+                .whyInvest ul.accord li ul.wayInvest li a.advisor span {
+                    background-position: -208px -206px;
+                }
+
+    .accordDetail .detailBlock .detail .quickBox ul li a {
+        padding-top: 5px;
+        height: 25px;
+    }
+
+    .investTabWrap .tabDetail .row .detail a.midCont {
+        clear: both;
+        margin-left: 0;
+    }
+
+    .stepConfirm p span, .stepConfirm p a {
+        font-size: 1em;
+    }
+
+    .investTabWrap .tabDetail .knowMor.knowMore1 a {
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+    .investTabWrap .tabDetail .knowMor.knowMor1 a.newLink {
+        clear: both;
+    }
+
+
+
+
+    .stepConfirm h2, .stepConfirm h3 {
+        font-size: 1.5em;
+    }
+
+    .investTabWrap ul.tab li {
+        width: 30px !important;
+        height: 30px;
+        margin: 0 3px;
+    }
+
+        .investTabWrap ul.tab li a {
+            font-size: 1.2em;
+        }
+
+            .investTabWrap ul.tab li a span {
+                width: 30px;
+                height: 30px;
+                display: block;
+                padding-top: 3px;
+            }
+
+    .investTabWrap .mobTitle {
+        font-size: 1.4em;
+    }
+
+    .investTabWrap ul.tab li a label br {
+        display: block;
+    }
+
+    .investStart .stepBox {
+        width: 100%;
+        margin: 80px 15px 0 0;
+    }
+
+    .investTabWrap .tabDetail .row .detail .dateDiv {
+        width: 100%;
+    }
+
+        .investTabWrap .tabDetail .row .detail .dateDiv input {
+            width: 80%;
+            padding: 0 5px;
+        }
+
+        .investTabWrap .tabDetail .row .detail .dateDiv p.midCont {
+            width: 100%;
+            margin: 5px 0;
+        }
+
+        .investTabWrap .tabDetail .row .detail .dateDiv a {
+            margin: 8px 0 5px 3px;
+        }
+
+    .stepConfirm h3 {
+        padding-right: 23px;
+        padding-left: 0;
+    }
+
+    .investTabWrap .tabDetail .knowMor a.save.marLeft {
+        clear: both;
+        margin-left: 15px;
+    }
+
+    .investStart .knowMor a {
+        left: 0;
+        margin: 0;
+    }
+
+        .investStart .knowMor a.demo {
+            right: 0;
+        }
+
+    .investTabWrap .tabDetail .row .detail .searchScheme a, .wrapBox .searchScheme a {
+        margin: 8px 3px;
+        float: left;
+        width: auto;
+    }
+
+    .processDetail a.atRate {
+        font-size: 1.3em;
+    }
+
+    ul.rating li {
+        margin: 0 5px 0 0;
+    }
+    /*==================Login========================*/
+    .loginSection {
+        position: relative;
+    }
+
+    .loginMob {
+        display: block;
+    }
+
+    .loginClick {
+        display: none;
+    }
+
+    .loginWrapper, .loginWrapper .registerWrapper {
+        width: 100%;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .loginWrapper .loginContent, .loginWrapper .registerWrapper .registerContent, .registerContent .content {
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .registerContent a.redBtn {
+        float: left;
+        margin: 10px 0 0 0;
+    }
+
+    .loginContent .feildWrapper .radioWrap label {
+        margin: 10px 18px 0 0;
+    }
+
+    .loginContent .feildWrapper input.small[type="text"] {
+        margin-top: 10px;
+    }
+
+    .regisContent .contentWrapper, .regisContent .contentWrapper .regContent {
+        width: 100%;
+    }
+
+        .regisContent .contentWrapper h1 {
+            padding: 0 0px 0 20px;
+        }
+
+        .regisContent .contentWrapper .regContent .regBand ul li {
+            margin: 0 0 15px 0;
+        }
+
+        .regisContent .contentWrapper .regContent .btnWrap .redBtn {
+            margin: 0 10px 0px 0;
+        }
+
+    .creatPass .passStrength {
+        margin: 0px;
+    }
+
+    .logedinInfo {
+        background: #D8DEE5;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #B3BCC6;
+    }
+
+        .logedinInfo p {
+            padding: 0 0 10px 0;
+            color: #333;
+        }
+
+        .logedinInfo h2 {
+            color: #034da2;
+            padding: 10px 0 0px 0;
+        }
+
+    .onlineKEyboard {
+        display: none;
+    }
+    /*==================End ofLogin========================*/
+
+    /*==================Why RMF========================*/
+
+    .activeContent h2 {
+        font-size: 2.5em;
+    }
+
+    .activeContent p {
+        font-size: 1.3em;
+    }
+
+    .activeContent {
+        height: 295px;
+    }
+
+    .storiesContainer .smallGrid {
+        height: 294px;
+    }
+
+    .storiesContainer .bigGrid {
+        height: 245px;
+    }
+
+    .network .activeContent .activeContentWrapper {
+        padding: 80px 0 0;
+    }
+
+
+
+    .activeContent .activeContentWrapper2 {
+        width: 100%;
+        float: left;
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+
+    /*.activeContent .closeActiveBtn {
+        left: 10px;
+        right: 0px;
+    }*/ /*** Indigo changes - 27-8-2014 ***/
+
+    /*==================End of Why RMF========================*/
+    .tarckWrap ul li.fundname h2 {
+        font-size: 2em;
+    }
+
+    .valueBox span.val {
+        font-size: 1.6em;
+    }
+
+    .tarckWrap p {
+        font-size: 1.1em;
+    }
+
+    .tarckWrap ul li.download p {
+        font-size: 1.1em;
+    }
+
+
+
+    .gridBox {
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+
+    .pagination {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .detailLocate .mapRowWrap .row {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .detailLocate .row .lhs a, .detailLocate .row .lhs p {
+        font-size: 1.2em;
+    }
+
+    .locateSelect .selectbg {
+        width: 100%;
+    }
+
+    .investTabWrap .tabDetail .row .detail .hiddenDropDown .selectbg {
+        width: 100%;
+    }
+
+    .investTabWrap .tabDetail .hiddenDropDown .knowMor a {
+        margin-left: 0;
+    }
+
+    .sendTabDetail .knowMor a, .locateSelect .knowMor a {
+        margin: 0px 0 0 0;
+    }
+
+    .detailLocate .row .lhs a {
+        height: 20px;
+    }
+
+    .sendTabDetail input[type="text"], .locateSelect input[type="text"] {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .waysTransact .accordian h2 {
+        font-size: 1.1em;
+        padding: 18px 60px 0 28px;
+        background-position: 6px 22px;
+    }
+
+    .waysTransact .accordian .knowMor a {
+        margin: 5px 10px 0px 0;
+    }
+
+    ul.pdf li label.lhsLbl, ul.pdf li label.rhsLbl {
+        width: 100%;
+    }
+
+        ul.pdf li label.rhsLbl a {
+            clear: none;
+        }
+
+            ul.pdf li label.rhsLbl a:first-child {
+                float: left;
+            }
+
+    .accordContent .selectWrap .knowMor {
+        margin-top: 5px;
+    }
+
+    .accordContent .selectWrap .selectbg {
+        width: 100%;
+    }
+
+    .accordContent .rhsCont .selectWrap .selectbg {
+        width: 75%;
+    }
+    /*** Indigo -Added - 9-9-2014 ***/
+    .accordContent .rhsCont .selectWrap .knowMor {
+        margin: 0;
+    }
+    /*** Indigo -Added - 9-9-2014 ***/
+
+
+    /********** Start Glossary *******/
+    .glossaryLt {
+        width: 15%;
+    }
+
+    .glossaryRt {
+        width: 85%;
+        padding: 10px 10px;
+    }
+    /********** End Glossary *******/
+    .fundMnger .links a {
+        float: left;
+        margin-left: 5px;
+        font-size: 1.4em;
+        margin-right: 0;
+    }
+
+        .fundMnger .links a:first-child {
+            margin: 10px 0 0 0;
+        }
+
+        .fundMnger .links a.invstLink {
+            height: 20px;
+        }
+
+    ul.viewLink li a {
+        font-size: 1.2em;
+    }
+
+
+    /* learn and invest style starts */
+    .blueInvest ul li {
+        width: 100%;
+    }
+
+    .toolBtnLt {
+        width: 70%;
+    }
+
+    .videoTutorial ul li img {
+        margin: 0;
+    }
+
+    .videoTutorial ul li {
+        padding: 10px;
+    }
+        /* learn and invest style starts */
+        .videoTutorial ul li h4 {
+            font-size: 1.3em;
+        }
+
+    .searchRelease .detail input[type="text"] {
+        font-size: 1.2em;
+        width: 60px;
+    }
+
+    .searchRelease label {
+        margin: 0 0 5px 0;
+    }
+
+    .fundMnger .commonAccord h2 label.name {
+        font-size: 0.8em;
+    }
+
+    h3.jobOfc {
+        font-size: 1.3em;
+    }
+
+    ul.invstBox > li {
+        width: 100%;
+        height: 240px;
+    }
+
+        ul.invstBox > li .boxInvest .circleBox {
+            height: 120px;
+        }
+
+            ul.invstBox > li .boxInvest .circleBox img {
+                width: 120px;
+            }
+
+        ul.invstBox > li .boxInvest h2 {
+            padding: 15px;
+            height: 60px;
+        }
+
+    .boxContent ul li {
+        font-size: 1em;
+    }
+
+    .upload, .custinputfile-newset, .custinputfile-newset input {
+        width: 100%;
+    }
+
+        .custinputfile-newset img {
+            position: absolute;
+            right: 0;
+        }
+
+    .videoThumb img {
+        width: 100%;
+    }
+
+    .pieChartImage {
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+
+        .pieChartImage img {
+            width: 100%;
+        }
+
+    .SubscribeForLatestDivReqField {
+        padding-left: 20px;
+        border: none;
+        float: left;
+        position: relative;
+    }
+	
+	 .riskometerImage {
+        width:100%;
+    }
+}
+
+
+
+/*********** Careers-Apply now styles Added 14-10-2014************/
+
+
+
+
+@media only screen and (max-width : 360px) {
+  
+    
+
+
+    .oldsitelink {
+        padding-bottom: 7px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-top: -5px;
+        font-size: 1.1em !important;
+    }
+
+    .CareersDivReqField {
+        padding-left: 95px !important;
+    }
+
+    .CareersReqFieldsMobNo {
+        padding-left: 0px !important;
+    }
+
+    .CareerscountryCode placeholder {
+        width: 60px !important;
+    }
+
+    .CareersmobNo {
+        margin-left: 0px !important;
+    }
+
+    .bannerWrap img.coupledesk {
+        display: none;
+    }
+
+    .bannerWrap img.couplemobile {
+        display: block;
+        float: left;
+        height: 423px;
+        left: 4px;
+        max-width: 100%;
+        top: 0px;
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    /*---Prodigi 23 march 2015---*/
+    .waysTransact .accordian h2 span.purchase_icon {
+        background-color: #77d7c3;
+        background-position: -61px -414px;
+    }
+
+    .waysTransact .accordian h2 span.sip_icon {
+        background-color: #92cfec;
+        background-position: -137px -416px;
+    }
+
+    .waysTransact .accordian h2 span.redeem_icon {
+        background-color: #f0d676;
+        background-position: -215px -414px;
+    }
+
+    .waysTransact .accordian h2 span.switch_icon {
+        background-color: #c29ece;
+        background-position: -281px -414px;
+    }
+
+    .waysTransact .accordian h2 span.swp_icon {
+        background-color: #c2d591;
+        background-position: -4px -476px;
+    }
+
+    .waysTransact .accordian h2 span.stp_icon {
+        background-color: #eda9a2;
+        background-position: -89px -476px;
+    }
+
+	 .riskometerImage {
+        width:100%;
+    }
+    /*---Prodigi---*/
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 481px) {
+    .CareersDivReqField {
+        padding-left: 155px !important;
+    }
+
+    .CareersReqFieldsMobNo {
+        padding-left: 0px !important;
+    }
+
+    .CareerscountryCode placeholder {
+        width: 60px !important;
+    }
+
+    .CareersmobNo {
+        margin-left: 0px !important;
+    }
+
+    .bannerWrap img.coupledesk {
+        display: block;
+    }
+
+    .bannerWrap img.couplemobile {
+        display: block;
+        float: left;
+        height: 423px;
+        left: 4px;
+        max-width: 100%;
+        top: 0px;
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+    /*---Prodigi 23 march 2015 ---*/
+    .waysTransact .accordian h2 span.purchase_icon {
+        background-color: #77d7c3;
+        background-position: -61px -414px;
+    }
+
+    .waysTransact .accordian h2 span.sip_icon {
+        background-color: #92cfec;
+        background-position: -137px -416px;
+    }
+
+    .waysTransact .accordian h2 span.redeem_icon {
+        background-color: #f0d676;
+        background-position: -215px -414px;
+    }
+
+    .waysTransact .accordian h2 span.switch_icon {
+        background-color: #c29ece;
+        background-position: -281px -414px;
+    }
+
+    .waysTransact .accordian h2 span.swp_icon {
+        background-color: #c2d591;
+        background-position: -4px -476px;
+    }
+
+    .waysTransact .accordian h2 span.stp_icon {
+        background-color: #eda9a2;
+        background-position: -89px -476px;
+    }
+
+.riskometerImage {
+        width:100%;
+    }
+
+    /*---Prodigi---*/
+}
+
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    .CareersDivReqField {
+        padding-left: 255px !important;
+    }
+
+    .CareersReqFieldsMobNo {
+        padding-left: 0px !important;
+    }
+
+    .CareerscountryCode placeholder {
+        width: 60px !important;
+    }
+
+    .CareersmobNo {
+        margin-left: 0px !important;
+    }
+
+    li.firstLi {
+        display: none;
+    }
+
+    .bannerWrap img.couplemobile {
+        display: none;
+    }
+
+    /*---Simran---
+.bannerWrap article {
+    height: 346px;
+}*/
+
+
+.riskometerImage {
+        width:auto;
+    }
+
+
+}
